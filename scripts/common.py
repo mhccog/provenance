@@ -96,7 +96,7 @@ def overpass(q, timeout=240):
     last = None
     for ep in OVERPASS:
         try:
-            return get(ep, data=("data=" + urllib.parse.quote(q)).encode(), timeout=timeout, tries=2)
+            return get(ep, data=("data=" + urllib.parse.quote(q)).encode(), timeout=timeout, tries=1)
         except Exception as e:
             print("overpass", ep, e); last = e
             time.sleep(5)

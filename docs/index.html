@@ -29,7 +29,7 @@
     <nav class="topnav" aria-label="Sections">
       <button data-view="desk" class="on">Desk</button>
       <button data-view="map">Map</button>
-      <button data-view="sources">Sources &amp; trust</button>
+      <button data-view="sources">Sources<span class="long"> &amp; trust</span></button>
       <button data-view="rules">The rules</button>
     </nav>
   </div>
@@ -71,6 +71,7 @@
       </div>
       <p class="count" id="count" aria-live="polite"></p>
       <ul class="leads" id="leads"></ul>
+      <div class="more-row"><button class="ghost" id="more" type="button" hidden>Show more</button></div>
       <div class="empty" id="empty" hidden>
         <p class="empty-t">Nothing matches.</p><p>Try clearing the search or the filters.</p><button class="ghost" id="clear">Clear filters</button>
       </div>

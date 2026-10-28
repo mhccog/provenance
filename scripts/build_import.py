@@ -17,7 +17,7 @@ PATHS = {  # NSI path: (UK-facing category, luxury weight)
  "amenity/bar": ("Bar concept", .7), "leisure/sauna": ("Bathhouse & sauna", .9), "shop/bakery": ("Bakery", .6), "shop/musical_instrument": ("Instruments", .7),
  "shop/camera": ("Camera & optics", .6), "shop/hifi": ("Hi-fi", .7), "shop/boat": ("Boats", .9), "shop/florist": ("Florist", .6), "shop/beauty": ("Spa & beauty", .55),
 }
-MASS = re.compile(r"economy|budget|midscale|mid-scale|extended[- ]stay|discount|low[- ]cost|run by (Marriott|Hilton|Wyndham|IHG|Accor|Choice)|by (Marriott|Hilton|Wyndham|IHG|Accor|Choice)|owned by Wyndham|Inn & Suites|motel|supermarket|convenience|fast food|operated by Sterling|outlet|franchise of", re.I)
+MASS = re.compile(r"economy|budget|midscale|mid-scale|extended[- ]stay|discount|low[- ]cost|run by (Marriott|Hilton|Wyndham|IHG|Accor|Choice)|by (Marriott|Hilton|Wyndham|IHG|Accor|Choice)|owned by Wyndham|Inn & Suites|motel|supermarket|convenience|fast food|operated by Sterling|outlet|franchise of|of AccorHotels|Huazhu|Jin Jiang|budget hotel|hostel", re.I)
 STRICT = re.compile(r"luxur|haute|premium|high-end|upscale|boutique|artisan|maison|heritage|patisser|chocolatier|perfumer|fragrance house|tea house|ryokan|onsen|design hotel|gelat|caviar|truffle|champagne|craft|atelier|couture|jewel(l)?er since|watchmaker|porcelain|silversmith|goldsmith|gourmet|fine food|confiserie|historic", re.I)
 LUX = re.compile(r"luxur|haute|premium|high-end|upscale|fine|maison|patisser|chocolat|perfum|fragranc|jewel|watch|boutique|artisan|craft|heritage|design|porcelain|silver|gold|leather|couture|tailor|tea|gelat|wine|champagne|caviar|spa|bath|onsen|ryokan|sauna|hotel|resort|gourmet", re.I)
 UK = {"gb", "uk", "001", "150", "155", "154", "gb-eng", "gb-sct", "gb-wls", "gb-nir", "eu"}

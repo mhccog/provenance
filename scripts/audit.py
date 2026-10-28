@@ -149,7 +149,7 @@ spot("Twin sources (GitHub/Crossref)", pick(lambda l: l["tab"] == "twins"), tw, 
 
 out["spotChecks"].append({"source": "UK IPO register", "checked": 0, "passed": 0, "failed": [], "note": "the live register blocks automated reads; every mark lead is labelled 'check before use'"})
 tot = sum(s["checked"] for s in out["spotChecks"]); ps = sum(s["passed"] for s in out["spotChecks"])
-out["summary"] = f"{ps}/{tot} spot-checked records matched their original page; {len(set(out['flagged']))} leads flagged"
+out["summary"] = f"{ps}/{tot} spot-checked records matched their original page; {len(set(out['flagged']))} leads failed a spot-check; {len(out['deadLinks'])} sampled source links failing (flagged on their cards)"
 out["flagged"] = sorted(set(out["flagged"]))
 save("audit.json", out)
 print(out["summary"], out.get("schema"), out.get("linkCheck"))

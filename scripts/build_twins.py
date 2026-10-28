@@ -19,7 +19,7 @@ TOPICS = [
 STOP = set("a an the and or for of to in on with by from is are be this that it as at your you our we using use based open source project simple tool app made make your my".split())
 geo_cache = load("geo-cache.json", {}, static=True) or {}
 status = {}
-JUNK = re.compile(r"website|web site|landing|clone|portfolio|assignment|homework|course|tutorial|bootcamp|e-?commerce|shop website|template|dashboard ui|my first|practice|student|internship|hackathon", re.I)
+JUNK = re.compile(r"website|web site|landing|clone|portfolio|assignment|homework|course|tutorial|bootcamp|e-?commerce|shop website|template|dashboard ui|my first|practice|student|internship|hackathon|obsidian|theme|wallpaper|discord bot|telegram bot", re.I)
 
 
 def toks(s):

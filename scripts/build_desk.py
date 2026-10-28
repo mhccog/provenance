@@ -20,7 +20,7 @@ def first_move(l):
         if ip.get("email"): how.append(f"email {ip['email']}")
         if ip.get("telephone"): how.append(f"call {ip['telephone']}")
         if who:
-            return f"Contact the office-holder named in the notice, {who.title()}{' of ' + l['firm'] if l.get('firm') else ''} ({' or '.join(how) or 'details in the notice'}). Ask whether the {l['assets'].split(',')[0]} are being sold, by whom (agent or auction) and when."
+            return f"Contact the office-holder named in the notice, {who.title()}{' of ' + l['firm'] if l.get('firm') else ''} ({' or '.join(how) or 'contact details are in the notice'}). Ask whether the assets ({', '.join(l['assets'].split(', ')[:2])}…) are being sold, by whom (agent or auction) and when."
         return "Open the Gazette notice for the office-holder's published contact, then ask whether the assets are being sold, by whom and when."
     if t == "import":
         return f"Find the brand's partnerships or franchise contact on its official site{(' (' + l['site'] + ')') if l.get('site') else ''} and ask whether they have UK plans or a UK partner."
@@ -43,7 +43,7 @@ def outreach(l):
         ip = (l.get("ips") or [{}])[0]
         nm = (ip.get("name") or "").title() or "[office-holder]"
         return (f"Subject: {l['company']['name']}: interest in assets\n\nDear {nm},\n\nI saw the notice in The Gazette about {l['company']['name']}. "
-                f"I work with buyers in {l['category'].lower()} and may be able to introduce a serious buyer for the {l['assets'].split(',')[0]} and related assets. "
+                f"I work with buyers in {l['category'].lower()} and may be able to introduce a serious buyer for the company's assets ({', '.join(l['assets'].split(', ')[:2])}). "
                 "Could you tell me whether the assets are being sold, through which agent or auction house, and the timetable?\n\n"
                 "Thank you,\n[Your name]\n[Phone] · [Website]")
     if t == "import":
@@ -76,10 +76,20 @@ def angle(l):
     return f"“{l['title']}: loved by thousands, abandoned by its maker.” Who uses it, and can you save it?"
 
 
+def closing_facts(l):
+    c = l["company"]
+    f = [["Company", c["name"]], ["Company number", c.get("number")], ["Nature of business (as published)", c.get("nature") or "not stated in the notice"],
+         ["Notice", l["noticeType"]], ["Published", l["date"]], ["Where", (l.get("place") or {}).get("label")],
+         ["Address in notice", (l.get("address") or "") + (" (may be the office-holder's address)" if l.get("address") else "")]]
+    return [x for x in f if x[1]]
+
+
 def worth(l):
     t = l["tab"]
     if t == "closing":
-        return f"{l['appealLabel'].capitalize()}-appeal assets ({l['assets'].split(',')[0]}) that may be sold off fast; the notice is {max(days_ago(l['date']),0)} days old."
+        a = max(days_ago(l['date']), 0)
+        when = "published today" if a == 0 else "published yesterday" if a == 1 else f"published {a} days ago"
+        return f"{l['appealLabel'].capitalize()}-appeal kit ({', '.join(l['assets'].split(', ')[:2])}) that may be sold off fast; notice {when}."
     if t == "import":
         return f"{l['facts'][2][1]} locations abroad and none mapped in the UK: a real gap in {l['category'].lower()}."
     if t == "twins":
@@ -132,7 +142,9 @@ def main():
             if l["trust"]["deadLinks"]: s -= 0.1
             if l["id"] in flagged: s -= 0.25
             l["freshness"] = freshness(l, d.get("generatedAt") or now_iso())
-            l["score"] = round(max(0, min(1, s)) * 100)
+            l["score"] = round(max(0, min(1.1, s)) / 1.1 * 100)
+            if t == "closing":
+                l["facts"] = closing_facts(l); l.setdefault("kind", "Insolvency: " + l["noticeType"].lower())
             l["worth"] = worth(l); l["firstMove"] = first_move(l); l["outreach"] = outreach(l); l["angle"] = angle(l)
             l["tabName"] = TAB_NAMES[t]
             leads.append(l)
@@ -142,9 +154,9 @@ def main():
     seed = TODAY.isoformat()
     five, seen = [], set()
     for t in ("closing", "revival", "import", "twins"):
-        pool = [l for l in leads if l["tab"] == t][:6]
+        pool = [l for l in leads if l["tab"] == t and (t != "twins" or l.get("kind") == "Maker twins")][:6] or [l for l in leads if l["tab"] == t][:6]
         if pool:
-            pick = sorted(pool, key=lambda l: hashlib.md5((seed + l["id"]).encode()).hexdigest())[0] if t != "closing" else pool[0]
+            pick = sorted(pool, key=lambda l: hashlib.md5((seed + l["id"]).encode()).hexdigest())[0] if t == "revival" else pool[0]
             five.append(pick["id"]); seen.add(pick["id"])
     kinds = {BYID[i].get("kind") for i in five}
     for l in leads:

@@ -19,6 +19,7 @@
   const st = (id) => (store[id] && store[id].status) || "new";
 
   let DATA = null, LEADS = [], BY = {}, view = "desk", tab = "all", cursor = -1, shown = [], map = null, mapReady = false, SOURCES = null;
+  let limit = 60;
   const state = { q: "", cat: "", kind: "", status: "", sort: "score", lux: false };
 
   function toast(msg) { const t = $("#toast"); t.textContent = msg; t.classList.add("on"); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove("on"), 1800); }
@@ -88,17 +89,20 @@
     </li>`;
   }
 
-  function render() {
+  function render(keep) {
+    if (!keep) limit = 60;
     $$("#tabs button").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === tab));
     $("#tab-blurb").textContent = TABS[tab];
     shown = filtered();
-    const max = 240;
+    const max = limit;
     $("#leads").innerHTML = shown.slice(0, max).map(card).join("");
+    $("#more").hidden = shown.length <= max;
+    $("#more").textContent = `Show more (${shown.length - max} left)`;
     $("#empty").hidden = shown.length > 0;
     const t = tab === "all" ? "" : ` in ${DATA.tabs[tab].name}`;
     const stx = DATA.tabs[tab]?.status;
     const warn = stx && stx.ok === false ? ` · Today's refresh for this desk failed (${esc(stx.error || stx.note || "source unavailable")}); showing the last good copy.` : "";
-    $("#count").textContent = `${shown.length} lead${shown.length === 1 ? "" : "s"}${t}${shown.length > max ? `, showing the first ${max}` : ""}${warn}`;
+    $("#count").textContent = `${shown.length} lead${shown.length === 1 ? "" : "s"}${t}${shown.length > max ? `, showing ${max}` : ""}${warn}`;
     cursor = -1;
     if (view === "map" && mapReady) drawMap();
   }
@@ -158,7 +162,7 @@
 
   /* ---------- map ---------- */
   function baseStyle() {
-    return { version: 8, glyphs: undefined, sources: { c: { type: "geojson", data: "data/countries.geojson" } },
+    return { version: 8, sources: { c: { type: "geojson", data: "data/countries.geojson" } },
       layers: [{ id: "bg", type: "background", paint: { "background-color": "#e9f0f0" } },
         { id: "land", type: "fill", source: "c", paint: { "fill-color": "#f8f4ec" } },
         { id: "edge", type: "line", source: "c", paint: { "line-color": "#d6ccb9", "line-width": 0.6 } }] };
@@ -284,6 +288,7 @@
     for (const id of ["cat", "kind", "status", "sort"]) $("#" + id).onchange = (e) => { state[id] = e.target.value; render(); };
     $("#lux").onchange = (e) => { state.lux = e.target.checked; render(); };
     $("#viewmap").onclick = () => setView("map");
+    $("#more").onclick = () => { const n = $$("#leads .lead").length; limit += 60; render(true); $$("#leads .lead")[n]?.focus({ preventScroll: true }); };
     $("#clear").onclick = () => { Object.assign(state, { q: "", cat: "", kind: "", status: "", lux: false }); q.value = ""; $("#lux").checked = false; ["cat", "kind", "status"].forEach((i) => ($("#" + i).value = "")); render(); };
     const openFrom = (e) => { const li = e.target.closest("[data-id]"); if (li && !e.target.closest("a")) openLead(li.dataset.id); };
     $("#leads").onclick = openFrom; $("#five").onclick = openFrom;

@@ -26,12 +26,12 @@ kbd{font:11px/1 var(--sans);border:1px solid var(--line-2);border-bottom-width:2
 .brand .mark{width:28px;height:28px;color:var(--gold)}
 .dateline{margin:0;color:var(--muted);font-size:13px;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .topnav{display:flex;gap:2px}
-.topnav button{background:none;border:0;padding:8px 12px;border-radius:999px;cursor:pointer;color:var(--ink-2);font-size:14px}
+.topnav button{background:none;border:0;padding:8px 12px;border-radius:999px;cursor:pointer;color:var(--ink-2);font-size:14px;white-space:nowrap}
 .topnav button:hover{background:var(--paper-2)}
 .topnav button.on{color:var(--ink);background:var(--gold-soft)}
 
 /* intro */
-.intro{padding:48px 0 22px;max-width:760px}
+.intro{padding:48px 0 22px;max-width:860px}
 .intro h1{font:400 clamp(32px,4.6vw,52px)/1.06 var(--serif);letter-spacing:-.015em;margin:0 0 14px}
 .intro p{color:var(--ink-2);font-size:17px;margin:0;max-width:640px}
 .section-head{display:flex;align-items:baseline;gap:14px;margin:30px 0 14px;border-top:1px solid var(--ink);padding-top:12px}
@@ -62,10 +62,11 @@ kbd{font:11px/1 var(--sans);border:1px solid var(--line-2);border-bottom-width:2
 
 /* toolbar */
 .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:18px 0 8px}
-.search{flex:1 1 260px;display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line-2);border-radius:999px;padding:0 12px;height:40px}
+.search{flex:1 1 320px;display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line-2);border-radius:999px;padding:0 12px;height:40px}
 .search:focus-within{border-color:var(--gold);box-shadow:0 0 0 3px var(--gold-soft)}
 .search svg{width:16px;height:16px;color:var(--muted);flex:none}
 .search input{border:0;background:none;outline:0;flex:1;min-width:0;height:100%}
+select{max-width:230px}
 select,.ghost{height:40px;border:1px solid var(--line-2);background:var(--card);border-radius:999px;padding:0 14px;cursor:pointer}
 select:hover,.ghost:hover{border-color:var(--ink-2)}
 .toggle{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--ink-2);padding:0 6px;cursor:pointer;white-space:nowrap}
@@ -170,6 +171,9 @@ table.audit th{font-weight:500;color:var(--muted)}
   .mast-row{height:56px;gap:10px}.dateline{display:none}.brand{font-size:21px}
   .topnav{margin-left:auto}.topnav button{padding:7px 9px;font-size:13px}
   .topnav button[data-view=rules]{display:none}
+  .topnav .long{display:none}
+  .section-head .hint{display:none}
+  select{max-width:none}
   .intro{padding:28px 0 8px}.intro p{font-size:15.5px}
   .five{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -16px;padding:0 16px 6px}
   .five li{flex:0 0 78%;scroll-snap-align:start}
@@ -183,3 +187,4 @@ table.audit th{font-weight:500;color:var(--muted)}
   .keys{display:none}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.more-row{display:flex;justify-content:center;margin:22px 0 0}.more-row .ghost{padding:0 22px}

@@ -16,15 +16,15 @@ CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data-sta
 CATS = [
  ("Vineyard, distillery & brewery", r"distill|spirit|gin\b|whisk|vineyard|winer|wine produc|manufacture of wine|brew|beer|cider|malt", 5,
   "stills, fermenters, casks, bottling lines, aged stock, brand and recipes", "craft distillers, brewers and drinks start-ups", ['craft=distillery','craft=brewery','craft=winery']),
- ("Hotel & country house", r"hotel|country house|guest house|inn\b|resort|holiday centre|accommodation", 5,
+ ("Hotel & country house", r"hotel|country house|guest house|\binn\b|resort|holiday centre|accommodation", 5,
   "furniture, antiques, art, linen, kitchen kit, the hotel name and booking list", "boutique hotel groups, antique dealers, interior designers", ['tourism=hotel']),
- ("Jeweller & watchmaker", r"jewel|watch|clock|goldsmith|silversmith|precious metal|diamond|gem", 5,
+ ("Jeweller & watchmaker", r"\bjewel|\bwatch(es|maker|making)?\b|\bclocks?\b|goldsmith|silversmith|precious metal|diamond|\bgems?\b|gemstone|horolog", 5,
   "workbenches, tools, stock, display cases, brand", "independent jewellers and bench jewellers", ['shop=jewelry','craft=jeweller','shop=watches']),
  ("Couture, tailoring & leather", r"tailor|couture|bespoke|dressmak|leather|saddl|millin|shoe|footwear|textile|knit|weav|fashion|apparel|clothing|wearing apparel", 4,
   "industrial sewing machines, cutting tables, patterns, fabric and leather stock, label", "independent tailors, fashion labels, costume houses", ['craft=tailor','shop=tailor','craft=dressmaker','craft=shoemaker','shop=fabric']),
  ("Classic car, coachbuilding & motorsport", r"coachbuild|classic car|vintage car|restoration of (motor|vehic)|motorsport|racing|manufacture of motor vehicles|bodies \(coachwork\)|car body", 5,
   "lifts, paint booth, panel tools, parts stock, project cars", "restoration specialists, collectors, motorsport teams", ['shop=car_repair','craft=coachbuilder']),
- ("Boat & yacht builder", r"boat|yacht|marin|ship|sailing|chandler", 5,
+ ("Boat & yacht builder", r"boat|yacht|\bmarine?\b|marina|shipbuild|ship repair|sailing|chandler", 5,
   "moulds, hulls, marine engines, chandlery stock, boatyard kit", "boatyards, marinas, marine engineers", ['craft=boatbuilder','leisure=marina','shop=boat']),
  ("Gallery, art & antiques", r"galler|antique|art dealer|fine art|auction|artist|frame|framing|sculpt", 5,
   "artworks, antiques, hanging systems, framing kit, client lists (as assets only)", "dealers, auction houses, interior designers", ['shop=art','shop=antiques','tourism=gallery']),
@@ -32,7 +32,7 @@ CATS = [
   "commercial kitchen (ovens, extraction, cold rooms), furniture, wine stock", "restaurant groups, chefs opening sites, dark kitchens", ['amenity=restaurant']),
  ("Film, music & studio kit", r"film|motion picture|video|television|recording|sound|music|photograph|studio|broadcast|post-production|lighting|theatre|performing arts", 4,
   "cameras, lenses, lighting, sound desks, sets and props", "production companies, rental houses, film schools", ['amenity=studio','craft=photographer']),
- ("Equestrian & rural", r"equestr|horse|stud\b|stable|riding|livery|polo|racehorse|farm|agricultur|estate", 4,
+ ("Equestrian & rural", r"equestr|horse|\bstud\b|stables|riding|livery|\bpolo\b|racehorse|farm|agricultur|country estate|sporting estate", 4,
   "tack, horseboxes, arena kit, farm machinery, land-based stock", "yards, studs, farms and rural estates", ['leisure=horse_riding','shop=equestrian']),
  ("Lab & science", r"laborator|research and experimental|biotech|pharmaceut|scientific|testing and analysis|medical device|optical", 4,
   "lab benches, fume cupboards, freezers, analytical instruments", "university spin-outs, biotech start-ups, school labs", ['office=research']),
@@ -117,14 +117,14 @@ def classify(text):
     return best
 
 
-def nearby(lat, lon, osm_tags, radius=40000):
+def nearby(lat, lon, osm_tags, radius=30000):
     parts = []
     for t in osm_tags:
         k, v = t.split("=")
         parts.append(f'nwr["{k}"="{v}"]["name"](around:{radius},{lat},{lon});')
-    q = f'[out:json][timeout:40];({"".join(parts)});out center 40;'
+    q = f'[out:json][timeout:25];({"".join(parts)});out center 40;'
     try:
-        d = overpass(q, timeout=90)
+        d = overpass(q, timeout=45)
     except Exception as e:
         print("overpass fail", e); return None
     res = []
@@ -170,7 +170,12 @@ def main():
             return (v[0] if isinstance(v, list) and v else v) if v else None
         area = pc.get("msg0_administrative_area")
         area = s1(area)
-        return nid, {"company": s1(co.get("organisationName")), "number": s1(co.get("companyNumber")), "nature": s1(co.get("natureOfBusiness")),
+        addr = None
+        for k in ("hasPrincipalTradingAddress", "hasRegisteredOffice"):
+            a = s1(co.get(k))
+            if isinstance(a, dict) and a.get("label"):
+                addr = a["label"]; break
+        return nid, {"address": addr, "company": s1(co.get("organisationName")), "number": s1(co.get("companyNumber")), "nature": s1(co.get("natureOfBusiness")),
                      "trading": s1(co.get("tradingAs")), "postcode": s1(pc.get("label")), "lat": s1(pc.get("lat")), "lon": s1(pc.get("long")),
                      "area": area.get("label") if isinstance(area, dict) else None, "ips": find_ips(about), "published": e.get("published", "")[:10]}
 
@@ -190,6 +195,17 @@ def main():
         ld = cache.get(nid)
         if not ld: continue
         name = ld.get("company") or title
+        addr = ld.get("address")
+        if not addr:
+            m = re.search(r"(?:Principal trading address|Registered office|Registered Office)\s*:?\s*(.+?)(?:\s+(?:Principal trading|Date of|Nature of|Name of|Liquidator|Office Holder|Former|Company Number|Joint)|…|$)", content, re.I)
+            addr = m.group(1).strip(" ,.") if m else None
+        pcm = re.search(r"\b([A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2})\b", addr or "")
+        town = None
+        if addr:
+            parts = [p.strip() for p in addr.split(",") if p.strip()]
+            parts = [p for p in parts if not re.fullmatch(r"[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}", p)]
+            town = parts[-1] if parts else None
+            if town and re.search(r"shire$|^Greater |^West |^East |^North |^South ", town) and len(parts) > 1: town = parts[-2] + ", " + town
         key = (ld.get("number") or name).upper()
         text = " ".join(filter(None, [ld.get("nature"), name, ld.get("trading")]))
         cat = classify(text)
@@ -204,27 +220,59 @@ def main():
         fit = 1.0 if nature_hit else 0.55
         leads.append({
             "id": "gz-" + nid, "tab": "closing", "title": name.title() if name.isupper() else name,
-            "subtitle": f"{cat[0]} · {TYPES[code]} · {ld.get('area') or ld.get('postcode') or 'UK'}",
+            "subtitle": f"{cat[0]} · {TYPES[code]} · {ld.get('area') or town or 'UK'}",
             "category": cat[0], "appeal": cat[2], "appealLabel": LAPPEAL[cat[2]],
             "date": ld.get("published") or e.get("published", "")[:10], "noticeType": TYPES[code],
             "company": {"name": name, "number": ld.get("number"), "nature": ld.get("nature"), "trading": ld.get("trading")},
-            "place": {"lat": lat, "lon": lon, "label": ", ".join(filter(None, [ld.get("area"), ld.get("postcode")])), "precision": "postcode in notice"} if lat else None,
+            "place": {"lat": lat, "lon": lon, "label": ", ".join(filter(None, [ld.get("area") or town, ld.get("postcode") or (pcm.group(1) if pcm else None)])) or "address in notice", "precision": "notice geotag (may be the office-holder's address)"} if lat else None,
+            "address": addr,
             "ips": ld.get("ips") or [], "firm": firm_from_content(content),
             "assets": cat[3], "buyers": cat[4], "osmTags": cat[5], "matchConfidence": conf, "excerpt": clean(content, 260),
             "sources": [{"name": "The Gazette", "url": f"{G}/notice/{nid}", "licence": "OGL v3", "trust": "official"}]
                        + ([{"name": "Companies House", "url": f"https://find-and-update.company-information.service.gov.uk/company/{ld['number']}", "licence": "OGL v3", "trust": "official"}] if ld.get("number") else []),
             "scoreParts": {"value": cat[2] / 5, "fresh": round(fresh(ld.get("published"), 14), 3), "fit": fit},
         })
+    # tidy place names with postcodes.io reverse geocoding (OGL; ONS/Royal Mail derived)
+    pts = [l for l in leads if l["place"]]
+    for i in range(0, len(pts), 100):
+        chunk = pts[i:i + 100]
+        body = json.dumps({"geolocations": [{"longitude": l["place"]["lon"], "latitude": l["place"]["lat"], "limit": 1, "radius": 2000} for l in chunk]}).encode()
+        try:
+            d = get("https://api.postcodes.io/postcodes", data=body, headers={"Content-Type": "application/json"}, timeout=60)
+            for l, r in zip(chunk, d.get("result", [])):
+                res = (r.get("result") or [None])[0]
+                if res:
+                    dist = res.get("admin_district") or res.get("parish")
+                    l["place"]["label"] = ", ".join(filter(None, [dist, res.get("region") or res.get("country")]))
+                    l["place"]["district"] = dist
+                    l["subtitle"] = f"{l['category']} · {l['noticeType']} · {dist or 'UK'}"
+        except Exception as e:
+            print("postcodes.io", e)
+    for l in leads:
+        if l["place"] and not l["place"].get("district"):
+            l["subtitle"] = f"{l['category']} · {l['noticeType']} · UK"
+        if l.get("address"):
+            l["address"] = clean(re.split(r"\s+(?:In the High Court|Type of Liq|Date of|Nature of)", l["address"])[0], 140)
     # nearby buyers for the strongest leads
     leads.sort(key=lambda l: -(l["scoreParts"]["value"] * 0.5 + l["scoreParts"]["fresh"] * 0.3 + l["scoreParts"]["fit"] * 0.2))
+    NEAR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data-static", "nearby-cache.json")
+    try: near_cache = json.load(open(NEAR))
+    except Exception: near_cache = {}
     t0 = time.time()
     for l in leads[: int(os.environ.get("CLOSING_NEARBY", "35"))]:
-        if time.time() - t0 > 600: break
+        if time.time() - t0 > int(os.environ.get("CLOSING_NEARBY_SECS", "420")): break
         if l["place"]:
-            l["nearby"] = nearby(l["place"]["lat"], l["place"]["lon"], l["osmTags"])
+            k = l["id"]
+            if k in near_cache:
+                l["nearby"] = near_cache[k]
+            else:
+                l["nearby"] = nearby(l["place"]["lat"], l["place"]["lon"], l["osmTags"])
+                if l["nearby"] is not None: near_cache[k] = l["nearby"]
             if l["nearby"] is not None:
                 l["sources"].append({"name": "OpenStreetMap (nearby buyers)", "url": "https://www.openstreetmap.org/#map=11/%s/%s" % (l["place"]["lat"], l["place"]["lon"]), "licence": "ODbL", "trust": "community"})
             time.sleep(1.5)
+    ids = {l["id"] for l in leads}
+    json.dump({k: v for k, v in near_cache.items() if k in ids}, open(NEAR, "w"))
     # keep cache bounded to the window
     keep = {e["id"].rsplit("/", 1)[-1] for _, e in notices}
     cache = {k: v for k, v in cache.items() if k in keep}
