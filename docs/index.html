@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Provenance · a daily desk of rare deals to broker</title>
+<meta name="description" content="Every morning: dormant heritage names, brands the UK hasn't got yet, closing businesses with remarkable kit, and strangers building the same rare thing. From real public records.">
+<meta name="theme-color" content="#f8f4ec">
+<meta property="og:title" content="Provenance · a daily desk of rare deals to broker">
+<meta property="og:description" content="Sleeping beauties, imports, treasure and twins: real leads from public records, refreshed daily.">
+<meta property="og:image" content="https://mhccog.github.io/provenance/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to leads</a>
+<header class="masthead">
+  <div class="wrap mast-row">
+    <a class="brand" href="#" data-view="desk" aria-label="Provenance home">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M11 23V9h6.2a4.4 4.4 0 0 1 0 8.8H11" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+      <span>Provenance</span>
+    </a>
+    <p class="dateline" id="dateline">Loading today's desk…</p>
+    <nav class="topnav" aria-label="Sections">
+      <button data-view="desk" class="on">Desk</button>
+      <button data-view="map">Map</button>
+      <button data-view="sources">Sources &amp; trust</button>
+      <button data-view="rules">The rules</button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="view" id="view-desk">
+    <div class="wrap">
+      <div class="intro">
+        <h1>Rare deals, found in public records.</h1>
+        <p>Every morning: dormant heritage names worth reviving, brands the UK hasn't got yet, closing businesses with remarkable kit, and strangers building the same rare thing. You make the introduction; you earn the fee.</p>
+      </div>
+
+      <section class="today" aria-labelledby="today-h">
+        <div class="section-head"><h2 id="today-h">Today's five</h2><span class="hint">the strongest lead in each desk, plus one</span></div>
+        <ol class="five" id="five"><li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li></ol>
+      </section>
+
+      <div class="tabs" role="tablist" id="tabs">
+        <button role="tab" data-tab="all" aria-selected="true">All <span class="n"></span></button>
+        <button role="tab" data-tab="revival" aria-selected="false"><i class="dot revival"></i>Revival broker <span class="n"></span></button>
+        <button role="tab" data-tab="import" aria-selected="false"><i class="dot import"></i>Import scout <span class="n"></span></button>
+        <button role="tab" data-tab="closing" aria-selected="false"><i class="dot closing"></i>Treasure hunter <span class="n"></span></button>
+        <button role="tab" data-tab="twins" aria-selected="false"><i class="dot twins"></i>Twin finder <span class="n"></span></button>
+      </div>
+      <p class="tab-blurb" id="tab-blurb"></p>
+
+      <div class="toolbar">
+        <label class="search"><span class="sr">Search leads</span>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="9" cy="9" r="6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M13.5 13.5 18 18" stroke="currentColor" stroke-width="1.5"/></svg>
+          <input id="q" type="search" placeholder="Search names, places, sectors…" autocomplete="off"><kbd>/</kbd>
+        </label>
+        <select id="cat" aria-label="Category"><option value="">All categories</option></select>
+        <select id="kind" aria-label="Lead type"><option value="">All types</option></select>
+        <select id="status" aria-label="Your status"><option value="">Any status</option><option value="new">New</option><option value="contacted">Contacted</option><option value="talks">In talks</option><option value="done">Done</option><option value="dropped">Dropped</option></select>
+        <select id="sort" aria-label="Sort"><option value="score">Best first</option><option value="date">Newest first</option><option value="title">A to Z</option></select>
+        <label class="toggle"><input type="checkbox" id="lux"> Luxury &amp; craft only</label>
+        <button class="ghost" id="viewmap" type="button">Show on map</button>
+      </div>
+      <p class="count" id="count" aria-live="polite"></p>
+      <ul class="leads" id="leads"></ul>
+      <div class="empty" id="empty" hidden>
+        <p class="empty-t">Nothing matches.</p><p>Try clearing the search or the filters.</p><button class="ghost" id="clear">Clear filters</button>
+      </div>
+      <p class="keys">Keys: <kbd>/</kbd> search · <kbd>j</kbd>/<kbd>k</kbd> move · <kbd>Enter</kbd> open · <kbd>Esc</kbd> close · <kbd>1</kbd>–<kbd>5</kbd> desks</p>
+    </div>
+  </section>
+
+  <section class="view" id="view-map" hidden>
+    <div class="map-wrap">
+      <div id="map" aria-label="Map of leads with a location"></div>
+      <div class="map-legend">
+        <strong>On the map</strong>
+        <label><input type="checkbox" data-layer="revival" checked><i class="dot revival"></i>Revival</label>
+        <label><input type="checkbox" data-layer="import" checked><i class="dot import"></i>Import (country)</label>
+        <label><input type="checkbox" data-layer="closing" checked><i class="dot closing"></i>Treasure (postcode)</label>
+        <label><input type="checkbox" data-layer="twins" checked><i class="dot twins"></i>Twins (both sides)</label>
+        <p class="hint" id="map-note"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="view-sources" hidden><div class="wrap prose" id="sources"></div></section>
+  <section class="view" id="view-rules" hidden><div class="wrap prose" id="rules"></div></section>
+</main>
+
+<aside class="drawer" id="drawer" aria-hidden="true" aria-labelledby="d-title" role="dialog">
+  <div class="drawer-scrim" data-close></div>
+  <div class="drawer-panel" tabindex="-1">
+    <button class="close" data-close aria-label="Close">×</button>
+    <div id="detail"></div>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<footer class="foot"><div class="wrap">
+  <p>Built from public records only: The Gazette and UK IPO (OGL v3), ClinicalTrials.gov, Wikidata (CC0), OpenStreetMap (ODbL), GitHub, Crossref. Nothing here is sent anywhere; your statuses and notes stay in this browser.</p>
+  <p id="foot-gen"></p>
+</div></footer>
+<script src="vendor/maplibre-gl.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+SELECT ?x ?xLabel ?xDescription ?inc ?dis ?countryLabel ?indLabel ?article WHERE {
+  ?x wdt:P576 ?dis .
+  ?x wdt:P452 ?ind .
+  ?ind rdfs:label ?il . FILTER(lang(?il)="en")
+  FILTER(REGEX(?il, "watch|jewel|perfum|fragrance|luxury|haute|leather|tailor|porcelain|silversmith|goldsmith|gunsmith|coachbuil|fashion|whisk|distill|cognac|champagne|hotel|yacht|automotive|automobile", "i"))
+  OPTIONAL { ?x wdt:P571 ?inc }
+  OPTIONAL { ?x wdt:P17 ?country }
+  OPTIONAL { ?article schema:about ?x ; schema:isPartOf <https://en.wikipedia.org/> }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+} LIMIT 5000

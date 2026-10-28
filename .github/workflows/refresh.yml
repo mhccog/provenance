@@ -1,0 +1,68 @@
+name: Refresh the desk
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # daily 05:17 UTC (05:17 London in winter, 06:17 in summer)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install audit tools (frictionless-py)
+        run: pip install --quiet frictionless
+      - name: "Treasure hunter · The Gazette insolvency notices"
+        continue-on-error: true
+        run: cd scripts && python -u build_closing.py
+      - name: "Revival broker · marks, dormant houses, archived projects, stopped trials"
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional free key (see README). Empty = this part is skipped and the page says so.
+          COMPANIES_HOUSE_API_KEY: ${{ secrets.COMPANIES_HOUSE_API_KEY }}
+        run: cd scripts && python -u build_revival.py
+      - name: "Import scout · brands abroad with no mapped UK presence"
+        continue-on-error: true
+        run: cd scripts && python -u build_import.py
+      - name: "Twin finder · cross-country pairs"
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: cd scripts && python -u build_twins.py
+      - name: Merge the desk (first pass)
+        run: cd scripts && python -u build_desk.py
+      - name: Audit · schema (frictionless) and link sample list
+        run: cd scripts && python -u audit.py
+      - name: Audit · link check (lychee)
+        continue-on-error: true
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --max-concurrency 4 --timeout 30 --max-retries 2 --accept 200..=299,403,429 audit/links.txt
+          format: json
+          output: audit/lychee.json
+          fail: false
+      - name: Audit · spot-checks + read lychee report
+        run: cd scripts && python -u audit.py
+      - name: Merge the desk (apply audit flags)
+        run: cd scripts && python -u build_desk.py
+      - name: Commit refreshed data
+        run: |
+          git config user.name "provenance bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data data-static audit/links.txt
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Refresh the desk ($(date -u +%Y-%m-%d))"
+          git pull --rebase -X theirs || git pull --rebase
+          git push
