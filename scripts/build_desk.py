@@ -91,7 +91,7 @@ def worth(l):
         when = "published today" if a == 0 else "published yesterday" if a == 1 else f"published {a} days ago"
         return f"{l['appealLabel'].capitalize()}-appeal kit ({', '.join(l['assets'].split(', ')[:2])}) that may be sold off fast; notice {when}."
     if t == "import":
-        return f"{l['facts'][2][1]} locations abroad and none mapped in the UK: a real gap in {l['category'].lower()}."
+        return f"{l['facts'][2][1]} locations abroad and none mapped in the UK yet ({l['category'].lower()})."
     if t == "twins":
         return f"Two small teams in different countries on the same rare thing, with no sign they know each other."
     k = l.get("kind")
