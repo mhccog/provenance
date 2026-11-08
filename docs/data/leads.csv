@@ -36,7 +36,7 @@ gz-5237649,closing,Insolvency: liquidator appointed,"
 gz-5237013,closing,Insolvency: liquidator appointed,A H - Biotech Limited,Lab & science,80,2026-10-26,3,3,https://www.thegazette.co.uk/notice/5237013
 wd-Q747594,revival,Dormant house,Riley Motor,Heritage marque,79,1969-01-01,2,1,https://www.wikidata.org/wiki/Q747594
 wd-Q30348,revival,Dormant house,Jensen Motors,Heritage marque,79,1976-01-01,2,1,https://www.wikidata.org/wiki/Q30348
-gh-41889031,revival,Abandoned project,NewPipe,Design & craft software,79,2026-11-06,2,3,https://github.com/TeamNewPipe/NewPipe
+gh-41889031,revival,Abandoned project,NewPipe,Design & craft software,79,2026-11-07,2,3,https://github.com/TeamNewPipe/NewPipe
 im-Q174310,import,Department store,Nordstrom,Department store,79,,2,3,https://nsi.guide/?id=Q174310
 im-Q17123688,import,Confectioner,Hussel Confiserie,Confectioner,79,,2,3,https://nsi.guide/?id=Q17123688
 im-Q20638837,import,Interiors,Bouclair Maison,Interiors,79,,2,3,https://nsi.guide/?id=Q20638837
@@ -52,7 +52,7 @@ im-Q139255278,import,Pâtisserie,Maison Dandoy,Pâtisserie,78,,2,3,https://nsi.g
 wd-Q656548,revival,Dormant house,Stoewer,Heritage luxury house,77,1945-01-01,2,1,https://www.wikidata.org/wiki/Q656548
 im-Q6129024,import,Jewellery,James Avery Jewelry,Jewellery,77,,2,3,https://nsi.guide/?id=Q6129024
 gz-5231506,closing,Insolvency: liquidator appointed,Gibbon Bridge Limited,Hotel & country house,77,2026-10-16,3,2,https://www.thegazette.co.uk/notice/5231506
-gz-5235478,closing,Insolvency: winding-up order,Petra Diamonds Uk Treasury Limited,Jeweller & watchmaker,77,2026-10-24,3,3,https://www.thegazette.co.uk/notice/5235478
+gz-5235478,closing,Insolvency: winding-up order,Petra Diamonds Uk Treasury Limited,Jeweller & watchmaker,77,2026-10-24,3,2,https://www.thegazette.co.uk/notice/5235478
 im-Q4742493,import,Hotel concept,AmericInn,Hotel concept,76,,2,3,https://nsi.guide/?id=Q4742493
 im-Q11751808,import,Hotel concept,Kyriad,Hotel concept,76,,2,3,https://nsi.guide/?id=Q11751808
 im-Q129391,import,Hotel concept,Scandic Hotels,Hotel concept,76,,2,3,https://nsi.guide/?id=Q129391
@@ -93,8 +93,8 @@ im-Q8846494,import,Hotel concept,Eurostars,Hotel concept,74,,2,3,https://nsi.gui
 im-Q2802214,import,Hotel concept,Van der Valk Hotel,Hotel concept,74,,2,3,https://nsi.guide/?id=Q2802214
 im-Q15910313,import,Jewellery,老鳳祥銀樓 Lao Feng Xiang Jewellery,Jewellery,74,,2,3,https://nsi.guide/?id=Q15910313
 im-Q116166915,import,Perfume house,Druni,Perfume house,74,,2,3,https://nsi.guide/?id=Q116166915
-im-Q4643844,import,Hotel concept,7 Days Inn (7天酒店),Hotel concept,74,,2,3,https://nsi.guide/?id=Q4643844
 im-Q120885584,import,Jewellery,Kendra Scott,Jewellery,74,,2,3,https://nsi.guide/?id=Q120885584
+im-Q4643844,import,Hotel concept,7 Days Inn (7天酒店),Hotel concept,74,,2,3,https://nsi.guide/?id=Q4643844
 im-Q107190915,import,Perfume house,Parfümerie Pieper,Perfume house,74,,2,3,https://nsi.guide/?id=Q107190915
 im-Q49099223,import,Jewellery,Guldfynd,Jewellery,74,,2,3,https://nsi.guide/?id=Q49099223
 im-Q18636715,import,Jewellery,Prouds,Jewellery,74,,2,3,https://nsi.guide/?id=Q18636715
@@ -162,11 +162,10 @@ gz-5232451,closing,Insolvency: liquidator appointed,M Harris Avionics Ltd,Lab & 
 tm-UK00000008580,revival,Dormant trade mark,J.H.HENKES' Prize-Medal,wines & spirits,70,2002-08-05,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000008580
 tm-UK00000010814,revival,Dormant trade mark,Rebello Valente,wines & spirits,70,2003-02-13,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000010814
 wd-Q1129919,revival,Dormant house,Jowett Cars,Heritage marque,70,1954-01-01,2,1,https://www.wikidata.org/wiki/Q1129919
-wd-Q1483061,revival,Dormant house,Vincent Motorcycles,Heritage marque,70,1959-01-01,2,1,https://www.wikidata.org/wiki/Q1483061
 wd-Q2602885,revival,Dormant house,Crossley Motors,Heritage marque,70,1958-01-01,2,1,https://www.wikidata.org/wiki/Q2602885
+wd-Q1483061,revival,Dormant house,Vincent Motorcycles,Heritage marque,70,1959-01-01,2,1,https://www.wikidata.org/wiki/Q1483061
 wd-Q1129941,revival,Dormant house,Alldays & Onions,Heritage marque,70,1969-01-01,2,1,https://www.wikidata.org/wiki/Q1129941
 wd-Q183040,revival,Dormant house,Carbodies Limited,Heritage marque,70,1998-01-01,2,1,https://www.wikidata.org/wiki/Q183040
-wd-Q7114554,revival,Dormant house,Owen Magnetic,Heritage luxury house,70,1922-01-01,2,1,https://www.wikidata.org/wiki/Q7114554
 wd-Q2533818,revival,Dormant house,Rollston,Heritage luxury house,70,1938-01-01,2,1,https://www.wikidata.org/wiki/Q2533818
 im-Q9750569,import,Chocolatier,Chocolates Brasil Cacau,Chocolatier,70,,2,3,https://nsi.guide/?id=Q9750569
 im-Q6499418,import,Chocolatier,Laura Secord,Chocolatier,70,,2,3,https://nsi.guide/?id=Q6499418
@@ -194,7 +193,8 @@ tm-UK00000078306,revival,Dormant trade mark,GARVEY'S SHERRY,wines & spirits,68,2
 wd-Q861183,revival,Dormant house,Wilson-Pilcher,Heritage marque,68,1904-01-01,2,1,https://www.wikidata.org/wiki/Q861183
 wd-Q652580,revival,Dormant house,Argyll Motors Ltd,Heritage marque,68,1932-01-01,2,1,https://www.wikidata.org/wiki/Q652580
 wd-Q1626052,revival,Dormant house,Squire Car Manufacturing Company,Heritage marque,68,1939-01-01,2,1,https://www.wikidata.org/wiki/Q1626052
-gh-1529160,revival,Abandoned project,etherpad,Software,68,2026-11-06,2,3,https://github.com/ether/etherpad
+wd-Q22671733,revival,Dormant house,John B. Judkins Company,Heritage luxury house,68,1942-01-01,2,1,https://www.wikidata.org/wiki/Q22671733
+gh-1529160,revival,Abandoned project,etherpad,Software,68,2026-11-07,2,3,https://github.com/ether/etherpad
 gh-58774373,revival,Abandoned project,icloud_photos_downloader,Software,68,2026-11-04,2,3,https://github.com/icloud-photos-downloader/icloud_photos_downloader
 im-Q86707661,import,Wine merchant,Wine Rack (Canada),Wine merchant,68,,2,3,https://nsi.guide/?id=Q86707661
 im-Q123049012,import,Tea house,Czas na Herbatę,Tea house,68,,2,3,https://nsi.guide/?id=Q123049012
@@ -241,8 +241,8 @@ tm-UK00000035291,revival,Dormant trade mark,ECLIPSE SQUARE BLUE,perfume & cosmet
 tm-UK00000170623,revival,Dormant trade mark,TEW-ITT,wines & spirits,66,2005-02-10,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000170623
 tm-UK00000096980,revival,Dormant trade mark,THE ABINGDON KING DICK,motoring & coachbuilding,66,2002-03-31,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000096980
 tm-UK00000011491,revival,Dormant trade mark,LEMON HART'S RUM,wines & spirits,66,2013-03-29,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000011491
-wd-Q2953189,revival,Dormant house,Williamson Flat Twin,Heritage marque,66,1920-01-01,2,1,https://www.wikidata.org/wiki/Q2953189
 wd-Q1268132,revival,Dormant house,Duzmo Motorcycles,Heritage marque,66,1923-01-01,2,1,https://www.wikidata.org/wiki/Q1268132
+wd-Q2953189,revival,Dormant house,Williamson Flat Twin,Heritage marque,66,1920-01-01,2,1,https://www.wikidata.org/wiki/Q2953189
 wd-Q2511965,revival,Dormant house,Bradbury Motor Cycles,Heritage marque,66,1924-01-01,2,1,https://www.wikidata.org/wiki/Q2511965
 wd-Q250474,revival,Dormant house,Straker-Squire,Heritage marque,66,1927-01-01,2,1,https://www.wikidata.org/wiki/Q250474
 wd-Q1129939,revival,Dormant house,Swift Motor Company,Heritage marque,66,1931-01-01,2,1,https://www.wikidata.org/wiki/Q1129939
@@ -328,12 +328,12 @@ tm-UK00000268445,revival,Dormant trade mark,WI LO,wines & spirits,64,2002-12-07,
 tm-UK00000369443,revival,Dormant trade mark,POCKET BEN,watches & jewellery,64,1999-09-28,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000369443
 tm-UK00000372776,revival,Dormant trade mark,KELOCK,watches & jewellery,64,2000-05-04,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000372776
 tm-UK00000242416,revival,Dormant trade mark,JAPA,motoring & coachbuilding,64,1999-12-03,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000242416
-wd-Q7727884,revival,Dormant house,The Coventry Motor Company,Heritage marque,64,1903-01-01,2,1,https://www.wikidata.org/wiki/Q7727884
 wd-Q1276760,revival,Dormant house,Eagle Engineering,Heritage marque,64,1907-01-01,2,1,https://www.wikidata.org/wiki/Q1276760
 wd-Q2595883,revival,Dormant house,Wyvern Light Car,Heritage marque,64,1914-01-01,2,1,https://www.wikidata.org/wiki/Q2595883
 wd-Q1811462,revival,Dormant house,Lecoy,Heritage marque,64,1922-01-01,2,1,https://www.wikidata.org/wiki/Q1811462
 wd-Q5486358,revival,Dormant house,Frank E. Baker Motorcycles Ltd,Heritage marque,64,1930-01-01,2,1,https://www.wikidata.org/wiki/Q5486358
 wd-Q818212,revival,Dormant house,Bentall vehicles,Heritage marque,64,1984-01-01,2,1,https://www.wikidata.org/wiki/Q818212
+wd-Q7727884,revival,Dormant house,The Coventry Motor Company,Heritage marque,64,1903-01-01,2,1,https://www.wikidata.org/wiki/Q7727884
 im-Q17022490,import,Restaurant concept,Montana's,Restaurant concept,64,,2,3,https://nsi.guide/?id=Q17022490
 im-Q4967623,import,Accessories,Brighton Collectibles,Accessories,64,,2,3,https://nsi.guide/?id=Q4967623
 im-Q116698397,import,Wine merchant,WINETIME,Wine merchant,64,,2,3,https://nsi.guide/?id=Q116698397
@@ -355,10 +355,10 @@ tm-UK00000410927,revival,Dormant trade mark,PRIAUR,watches & jewellery,63,2004-1
 tm-UK00000426705,revival,Dormant trade mark,TADANAC,watches & jewellery,63,2006-05-31,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000426705
 tm-UK00000428480,revival,Dormant trade mark,RONETTE,watches & jewellery,63,2006-08-03,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000428480
 wd-Q6451755,revival,Dormant house,Kyma,Heritage marque,63,1905-01-01,2,1,https://www.wikidata.org/wiki/Q6451755
+wd-Q16830832,revival,Dormant house,Certus Gearless Company,Heritage marque,63,1908-01-01,2,1,https://www.wikidata.org/wiki/Q16830832
 wd-Q1791936,revival,Dormant house,Warren-Lambert,Heritage marque,63,1922-01-01,2,1,https://www.wikidata.org/wiki/Q1791936
 wd-Q7123034,revival,Dormant house,Packman & Poppe Motorcycles,Heritage marque,63,1930-01-01,2,1,https://www.wikidata.org/wiki/Q7123034
 wd-Q7682477,revival,Dormant house,Tandon Motorcycles,Heritage marque,63,1959-01-01,2,1,https://www.wikidata.org/wiki/Q7682477
-wd-Q16830832,revival,Dormant house,Certus Gearless Company,Heritage marque,63,1908-01-01,2,1,https://www.wikidata.org/wiki/Q16830832
 gh-621803253,revival,Abandoned project,Flowise,Software,63,2026-08-13,2,2,https://github.com/FlowiseAI/Flowise
 gh-42332863,revival,Abandoned project,filebrowser,Software,63,2026-07-31,2,2,https://github.com/filebrowser/filebrowser
 gh-184520105,revival,Abandoned project,spark-joy,Design & craft software,63,2026-06-03,2,1,https://github.com/swyxio/spark-joy
@@ -402,7 +402,7 @@ tm-UK00000470833,revival,Dormant trade mark,EVERSHARP,watches & jewellery,62,199
 tm-UK00000313674,revival,Dormant trade mark,SAPAL,cutlery & blades,62,2007-06-03,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000313674
 gh-704881002,revival,Abandoned project,xiaomusic,Design & craft software,62,2026-06-09,2,1,https://github.com/hanxi/xiaomusic
 gh-268786553,revival,Abandoned project,Discord-MusicBot,Design & craft software,62,2026-04-23,2,1,https://github.com/ItzSudhan/Discord-MusicBot
-gh-956792596,revival,Abandoned project,piper1-gpl,Software,62,2026-11-02,2,3,https://github.com/OHF-Voice/piper1-gpl
+gh-956792596,revival,Abandoned project,piper1-gpl,Software,62,2026-11-07,2,3,https://github.com/OHF-Voice/piper1-gpl
 gh-106345099,revival,Abandoned project,swup,Software,62,2026-11-03,2,3,https://github.com/swup/swup
 ct-NCT06032546,revival,Stopped clinical trial,"A Study to Assess Change in Disease Activity, Adverse Events, and How the Drug Moves Through the Body in Adult Participants Living With Human Immunodeficiency Virus (HIV) Receiving Intravenous (IV) Infusion or Subcutaneous (SC) Injection of Budigalimab and/or ABBV-382",Life sciences,62,2026-11-06,3,3,https://clinicaltrials.gov/study/NCT06032546
 ct-NCT04933916,revival,Stopped clinical trial,Study of EMB-001 as a Potential Smoking Cessation Treatment,Life sciences,62,2026-11-05,3,3,https://clinicaltrials.gov/study/NCT04933916
@@ -467,7 +467,7 @@ im-Q113232449,import,Pâtisserie,Cukiernia Sowa,Pâtisserie,61,,2,3,https://nsi.
 im-Q813782,import,Homeware,Bed Bath & Beyond (North America),Homeware,61,,2,3,https://nsi.guide/?id=Q813782
 im-Q101113141,import,Beauty,Primor,Beauty,61,,2,3,https://nsi.guide/?id=Q101113141
 gz-5231291,closing,Insolvency: winding-up order,Knightsward Farm Limited,Equestrian & rural,61,2026-10-17,3,2,https://www.thegazette.co.uk/notice/5231291
-gz-5235471,closing,Insolvency: winding-up order,Mjhm Engineering Ltd,"Workshop, making & print",61,2026-10-24,3,3,https://www.thegazette.co.uk/notice/5235471
+gz-5235471,closing,Insolvency: winding-up order,Mjhm Engineering Ltd,"Workshop, making & print",61,2026-10-24,3,2,https://www.thegazette.co.uk/notice/5235471
 tm-UK00000227208,revival,Dormant trade mark,REXINE,leather goods,60,2007-11-17,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000227208
 tm-UK00000306309,revival,Dormant trade mark,RINSO,perfume & cosmetics,60,2016-09-19,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000306309
 tm-UK00000307422,revival,Dormant trade mark,BITUROS,perfume & cosmetics,60,2006-10-28,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000307422
@@ -505,7 +505,6 @@ ct-NCT05532020,revival,Stopped clinical trial,An Open-Label Study of Diazoxide C
 ct-NCT06637631,revival,Stopped clinical trial,A Study to Investigate Efficacy and Safety of SAR441566 in Patients With Crohn's Disease.,Life sciences,60,2026-10-13,3,2,https://clinicaltrials.gov/study/NCT06637631
 ct-NCT01785420,revival,Stopped clinical trial,Pre Operative Trastuzumab in Operable Breast Cancer,Life sciences,60,2026-10-09,3,2,https://clinicaltrials.gov/study/NCT01785420
 ct-NCT05279937,revival,Stopped clinical trial,The Ultrasound-Guided Dextrose Prolotherapy in Ehlers-Danlos Syndrome Patients,Life sciences,60,2026-10-08,3,2,https://clinicaltrials.gov/study/NCT05279937
-ct-NCT00893516,revival,Stopped clinical trial,CD4 in Combination With CHOP in Treating Non-cutaneous Peripheral TCell Lymphoma,Life sciences,60,2026-10-07,3,2,https://clinicaltrials.gov/study/NCT00893516
 im-Q109628199,import,Interiors,Kid interiør,Interiors,60,,2,3,https://nsi.guide/?id=Q109628199
 im-Q6415714,import,Interiors,Kirkland's,Interiors,60,,2,3,https://nsi.guide/?id=Q6415714
 im-Q5174750,import,Interiors,World Market,Interiors,60,,2,3,https://nsi.guide/?id=Q5174750
@@ -516,13 +515,13 @@ gz-5232796,closing,Insolvency: administrator appointed,Stephan (Uk) Limited,"Wor
 gz-5231389,closing,Insolvency: liquidator appointed,Strathdevon Limited,Fine dining & restaurant,60,2026-10-16,3,2,https://www.thegazette.co.uk/notice/5231389
 gz-5231502,closing,Insolvency: liquidator appointed,Kemvyl Limited,"Workshop, making & print",60,2026-10-16,3,2,https://www.thegazette.co.uk/notice/5231502
 nto-oaW7168149325oaW7204989184,twins,Research twins,Canopy Urban Heat Island Mitigation Through… × Evaluate the thermal performance of green…,Keeping cities cool in heatwaves,60,2026-09-02,3,2,https://doi.org/10.3390/su18147094
-nto-oaW7171973673oaW7172450507,twins,Research twins,Evaluating surface water for genomic… × Genomic Surveillance of ESBL-Producing…,Antibiotic resistance in wastewater,60,2026-08-04,3,2,https://doi.org/10.1016/j.envadv.2026.100744
 tm-UK00000077995,revival,Dormant trade mark,CROSIER BRAND W.J.C. LONDON,perfume & cosmetics,59,2000-07-05,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000077995
 tm-UK00000058882,revival,Dormant trade mark,BLAKEYS BOOT PROTECTORS,tailoring & fashion,59,2008-11-13,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000058882
 tm-UK00000570229,revival,Dormant trade mark,TAWLITE,cutlery & blades,59,2006-07-14,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000570229
 tm-UK00000431685,revival,Dormant trade mark,FAIRBANKS-MORSE,motoring & coachbuilding,59,2016-11-20,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000431685
 gh-29261473,revival,Abandoned project,minio,Software,59,2026-04-24,2,1,https://github.com/minio/minio
 gh-62367558,revival,Abandoned project,hyper,Software,59,2026-11-04,2,3,https://github.com/vercel/hyper
+ct-NCT00893516,revival,Stopped clinical trial,CD4 in Combination With CHOP in Treating Non-cutaneous Peripheral TCell Lymphoma,Life sciences,59,2026-10-07,3,2,https://clinicaltrials.gov/study/NCT00893516
 ct-NCT07027111,revival,Stopped clinical trial,"Safety, Tolerability, and Efficacy of NVG-2089 in Participants With CIDP",Life sciences,59,2026-10-06,3,2,https://clinicaltrials.gov/study/NCT07027111
 ct-NCT06568692,revival,Stopped clinical trial,A Phase 2 Study of PCS6422 With Capecitabine in Patients With Advanced or Metastatic Breast Cancer,Life sciences,59,2026-10-06,3,2,https://clinicaltrials.gov/study/NCT06568692
 ct-NCT06559072,revival,Stopped clinical trial,Ultra-early STatin in Patients With Aneurysmal subaRachnoid Hemorrhage (Ue-STAR),Life sciences,59,2026-10-05,3,2,https://clinicaltrials.gov/study/NCT06559072
@@ -533,6 +532,7 @@ im-Q5439846,import,Pâtisserie,MultiVlaai,Pâtisserie,59,,2,3,https://nsi.guide/
 im-Q7073219,import,Perfume house,O Boticário,Perfume house,59,,2,3,https://nsi.guide/?id=Q7073219
 gz-5237222,closing,Insolvency: liquidator appointed,Norton Stainless Engineering Limited,"Workshop, making & print",59,2026-10-23,3,2,https://www.thegazette.co.uk/notice/5237222
 gz-5236117,closing,Insolvency: liquidator appointed,Kutz Amc Limited,Gym & wellness,59,2026-10-23,3,2,https://www.thegazette.co.uk/notice/5236117
+nto-oaW7171973673oaW7172450507,twins,Research twins,Evaluating surface water for genomic… × Genomic Surveillance of ESBL-Producing…,Antibiotic resistance in wastewater,59,2026-08-04,3,2,https://doi.org/10.1016/j.envadv.2026.100744
 tm-UK0000297803A,revival,Dormant trade mark,POLYWOG,leather goods,58,2005-11-07,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK0000297803A
 tm-UK00000454432,revival,Dormant trade mark,MAUDSLAY,motoring & coachbuilding,58,2004-12-11,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000454432
 tm-UK00000052897,revival,Dormant trade mark,PHOSPHOR BRONZE COMPANY LIMITED,cutlery & blades,58,1998-04-10,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000052897
@@ -552,7 +552,6 @@ ct-NCT02992964,revival,Stopped clinical trial,Pilot Study of Nivolumab in Pediat
 ct-NCT06005818,revival,Stopped clinical trial,Molecular Residual Disease (MRD) Guided Adjuvant ThErapy in Renal Cell Carcinoma (RCC),Life sciences,58,2026-11-03,3,3,https://clinicaltrials.gov/study/NCT06005818
 ct-NCT07073183,revival,Stopped clinical trial,Safety and Tolerability of CVHNLC Plus Pembrolizumab in Patients With Squamous Non Small-Cell Lung Cancer (sqNSCLC),Life sciences,58,2026-11-02,3,3,https://clinicaltrials.gov/study/NCT07073183
 ct-NCT03588754,revival,Stopped clinical trial,"Does Propranolol, a Beta Blocker, Attenuate Stress-Induced Drinking?",Life sciences,58,2026-11-02,3,3,https://clinicaltrials.gov/study/NCT03588754
-ct-NCT03995173,revival,Stopped clinical trial,Pilot rTMS for AUD+mTBI,Life sciences,58,2026-10-30,3,3,https://clinicaltrials.gov/study/NCT03995173
 im-Q1480395,import,Fine food,føtex Delikatesse,Fine food,58,,2,3,https://nsi.guide/?id=Q1480395
 im-Q62384749,import,Pâtisserie,Smallcakes,Pâtisserie,58,,2,3,https://nsi.guide/?id=Q62384749
 gz-5229243,closing,Insolvency: liquidator appointed,So Feed Me Limited,Fine dining & restaurant,58,2026-10-13,3,2,https://www.thegazette.co.uk/notice/5229243
@@ -571,6 +570,7 @@ tm-UK00000522831,revival,Dormant trade mark,PURAX,motoring & coachbuilding,57,20
 tm-UK00000523394,revival,Dormant trade mark,DEYMEL,motoring & coachbuilding,57,2001-06-08,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000523394
 tm-UK00000532647,revival,Dormant trade mark,ROMAC,cutlery & blades,57,2002-06-16,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000532647
 tm-UK00000529248,revival,Dormant trade mark,BORE-MATIC,cutlery & blades,57,2002-02-09,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000529248
+ct-NCT03995173,revival,Stopped clinical trial,Pilot rTMS for AUD+mTBI,Life sciences,57,2026-10-30,3,3,https://clinicaltrials.gov/study/NCT03995173
 ct-NCT04111172,revival,Stopped clinical trial,A Vaccine (Ad5.F35-hGCC-PADRE) for the Treatment of Gastrointestinal Adenocarcinoma,Life sciences,57,2026-10-28,3,3,https://clinicaltrials.gov/study/NCT04111172
 ct-NCT06712433,revival,Stopped clinical trial,Bacterial Decolonization Plus Intraoperative Angiography for Soft Tissue Sarcomas Receiving Preoperative Radiotherapy (CONCERTO),Life sciences,57,2026-10-26,3,3,https://clinicaltrials.gov/study/NCT06712433
 ct-NCT07030907,revival,Stopped clinical trial,A Study to Evaluate the Safety and Efficacy of OPB-101 in Platinum-resistant Ovarian Cancer,Life sciences,57,2026-10-26,3,3,https://clinicaltrials.gov/study/NCT07030907
@@ -655,7 +655,7 @@ tm-UK00000612596,revival,Dormant trade mark,DESMO,motoring & coachbuilding,55,20
 gh-39038086,revival,Abandoned project,watchtower,Software,55,2025-12-17,2,1,https://github.com/containrrr/watchtower
 gh-105036236,revival,Abandoned project,draggable,Software,55,2025-12-01,2,1,https://github.com/Shopify/draggable
 gh-21179164,revival,Abandoned project,qTox,Design & craft software,55,2025-02-16,2,1,https://github.com/qTox/qTox
-gh-16607984,revival,Abandoned project,go-sqlmock,Software,55,2026-07-10,2,2,https://github.com/DATA-DOG/go-sqlmock
+gh-16607984,revival,Abandoned project,go-sqlmock,Software,55,2026-07-10,2,1,https://github.com/DATA-DOG/go-sqlmock
 gh-48780523,revival,Abandoned project,tilix,Software,55,2026-07-01,2,1,https://github.com/gnunn1/tilix
 gh-6448654,revival,Abandoned project,elpy,Software,55,2026-07-15,2,2,https://github.com/jorgenschaefer/elpy
 im-Q5047520,import,Gelato & ice cream,Carvel,Gelato & ice cream,55,,2,3,https://nsi.guide/?id=Q5047520
