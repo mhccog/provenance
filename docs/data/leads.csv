@@ -27,6 +27,7 @@ gz-5238270,closing,Insolvency: liquidator appointed,Burning Girl Productions Lim
 wd-Q1825008,revival,Dormant house,Alta Car and Engineering Company,Heritage marque,80,1956-01-01,2,1,https://www.wikidata.org/wiki/Q1825008
 wd-Q1754320,revival,Dormant house,Rootes Group,Heritage marque,80,1971-01-01,2,1,https://www.wikidata.org/wiki/Q1754320
 wd-Q530099,revival,Dormant house,Wolseley Motor Company,Heritage marque,80,1975-01-01,2,1,https://www.wikidata.org/wiki/Q530099
+gh-41889031,revival,Abandoned project,NewPipe,Design & craft software,80,2026-11-09,2,3,https://github.com/TeamNewPipe/NewPipe
 im-Q7829333,import,Watches,Tourneau,Watches,80,,2,3,https://nsi.guide/?id=Q7829333
 gz-5237899,closing,Insolvency: liquidator appointed,Classic Racing Cars (Engineering) Ltd,"Classic car, coachbuilding & motorsport",80,2026-10-26,3,3,https://www.thegazette.co.uk/notice/5237899
 gz-5237643,closing,Insolvency: liquidator appointed,Everett Marine Limited,Boat & yacht builder,80,2026-10-26,3,3,https://www.thegazette.co.uk/notice/5237643
@@ -36,7 +37,6 @@ gz-5237649,closing,Insolvency: liquidator appointed,"
 gz-5237013,closing,Insolvency: liquidator appointed,A H - Biotech Limited,Lab & science,80,2026-10-26,3,3,https://www.thegazette.co.uk/notice/5237013
 wd-Q747594,revival,Dormant house,Riley Motor,Heritage marque,79,1969-01-01,2,1,https://www.wikidata.org/wiki/Q747594
 wd-Q30348,revival,Dormant house,Jensen Motors,Heritage marque,79,1976-01-01,2,1,https://www.wikidata.org/wiki/Q30348
-gh-41889031,revival,Abandoned project,NewPipe,Design & craft software,79,2026-11-07,2,3,https://github.com/TeamNewPipe/NewPipe
 im-Q174310,import,Department store,Nordstrom,Department store,79,,2,3,https://nsi.guide/?id=Q174310
 im-Q17123688,import,Confectioner,Hussel Confiserie,Confectioner,79,,2,3,https://nsi.guide/?id=Q17123688
 im-Q20638837,import,Interiors,Bouclair Maison,Interiors,79,,2,3,https://nsi.guide/?id=Q20638837
@@ -91,8 +91,8 @@ wd-Q746273,revival,Dormant house,Allard Motor Company,Heritage marque,74,1966-01
 wd-Q369821,revival,Dormant house,Ariel Motorcycles,Heritage marque,74,1970-01-01,2,1,https://www.wikidata.org/wiki/Q369821
 im-Q8846494,import,Hotel concept,Eurostars,Hotel concept,74,,2,3,https://nsi.guide/?id=Q8846494
 im-Q2802214,import,Hotel concept,Van der Valk Hotel,Hotel concept,74,,2,3,https://nsi.guide/?id=Q2802214
-im-Q15910313,import,Jewellery,老鳳祥銀樓 Lao Feng Xiang Jewellery,Jewellery,74,,2,3,https://nsi.guide/?id=Q15910313
 im-Q116166915,import,Perfume house,Druni,Perfume house,74,,2,3,https://nsi.guide/?id=Q116166915
+im-Q15910313,import,Jewellery,老鳳祥銀樓 Lao Feng Xiang Jewellery,Jewellery,74,,2,3,https://nsi.guide/?id=Q15910313
 im-Q120885584,import,Jewellery,Kendra Scott,Jewellery,74,,2,3,https://nsi.guide/?id=Q120885584
 im-Q4643844,import,Hotel concept,7 Days Inn (7天酒店),Hotel concept,74,,2,3,https://nsi.guide/?id=Q4643844
 im-Q107190915,import,Perfume house,Parfümerie Pieper,Perfume house,74,,2,3,https://nsi.guide/?id=Q107190915
@@ -123,7 +123,6 @@ gz-5238232,closing,Insolvency: liquidator appointed,Single Source Storage Servic
 gz-5238228,closing,Insolvency: liquidator appointed,C G C Technology Limited,"Workshop, making & print",73,2026-10-27,3,3,https://www.thegazette.co.uk/notice/5238228
 gz-5238213,closing,Insolvency: liquidator appointed,Gvh Hospitality Ltd,Fine dining & restaurant,73,2026-10-27,3,3,https://www.thegazette.co.uk/notice/5238213
 gz-5238212,closing,Insolvency: liquidator appointed,Iow Design And Build Limited,"Workshop, making & print",73,2026-10-27,3,3,https://www.thegazette.co.uk/notice/5238212
-tw-1107249119-1439161577,twins,Maker twins,respira × zigzag,Embroidery machines,73,2026-10-30,2,3,https://github.com/jhbruhn/respira
 im-Q20711084,import,Hotel concept,Cobblestone Hotel & Suites,Hotel concept,72,,2,3,https://nsi.guide/?id=Q20711084
 im-Q113152432,import,Hotel concept,MainStay Suites,Hotel concept,72,,2,3,https://nsi.guide/?id=Q113152432
 im-Q101850226,import,Hotel concept,Appart'City,Hotel concept,72,,2,3,https://nsi.guide/?id=Q101850226
@@ -140,6 +139,7 @@ gz-5233434,closing,Insolvency: liquidator appointed,Synergy Pharma Consulting Li
 gz-5233394,closing,Insolvency: liquidator appointed,Apex Molecular Limited,Lab & science,72,2026-10-20,3,2,https://www.thegazette.co.uk/notice/5233394
 gz-5237529,closing,Insolvency: administrator appointed,County Systems Limited,"Workshop, making & print",72,2026-10-26,3,3,https://www.thegazette.co.uk/notice/5237529
 gz-5237820,closing,Insolvency: administrator appointed,Precision Fabrications Andover Ltd,"Workshop, making & print",72,2026-10-26,3,3,https://www.thegazette.co.uk/notice/5237820
+tw-1107249119-1439161577,twins,Maker twins,respira × zigzag,Embroidery machines,72,2026-10-30,2,3,https://github.com/jhbruhn/respira
 tm-UK00000062830,revival,Dormant trade mark,DEWRANCE,cutlery & blades,71,1999-03-05,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000062830
 wd-Q1289733,revival,Dormant house,Thames Ironworks and Shipbuilding Company,Heritage marque,71,1912-01-01,2,1,https://www.wikidata.org/wiki/Q1289733
 wd-Q448617,revival,Dormant house,Rudge-Whitworth,Heritage marque,71,1946-01-01,2,1,https://www.wikidata.org/wiki/Q448617
@@ -261,7 +261,6 @@ gz-5234991,closing,Insolvency: administrator appointed,Hamilton-Clark Ltd,"Works
 gz-5235790,closing,Insolvency: liquidator appointed,David Wilkinson Associates Limited,"Workshop, making & print",66,2026-10-22,3,2,https://www.thegazette.co.uk/notice/5235790
 gz-5234995,closing,Insolvency: liquidator appointed,J.Hodgson(Masham)Limited,"Workshop, making & print",66,2026-10-22,3,2,https://www.thegazette.co.uk/notice/5234995
 tw-1403630978-1087982674,twins,Maker twins,sashiko-maker × sashiko-pattern-designer,Embroidery machines,66,2026-10-03,2,2,https://github.com/evoluteur/sashiko-maker
-nto-oaW7207611507oaW7205007623,twins,Research twins,Evaluation of new biomarkers for the early… × The prognostic value of an integrated…,Catching sepsis early,66,2026-09-02,3,2,https://doi.org/10.1093/qjmed/hcag168.021
 tm-UK00000044266,revival,Dormant trade mark,Nultra,perfume & cosmetics,65,2007-04-08,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000044266
 tm-UK00000047614,revival,Dormant trade mark,CUTICURA,perfume & cosmetics,65,1997-09-23,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000047614
 tm-UK00000056011,revival,Dormant trade mark,WELLCOME SAUCE,perfume & cosmetics,65,1998-08-19,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000056011
@@ -342,7 +341,6 @@ im-Q5167112,import,Pâtisserie,Cookies by Design,Pâtisserie,64,,2,3,https://nsi
 gz-5233433,closing,Insolvency: liquidator appointed,Gitlife Biotech Ltd,Lab & science,64,2026-10-20,3,2,https://www.thegazette.co.uk/notice/5233433
 gz-5233426,closing,Insolvency: liquidator appointed,Eden Material Services (U.K.) Limited,"Workshop, making & print",64,2026-10-20,3,2,https://www.thegazette.co.uk/notice/5233426
 tw-1319302301-1403486067,twins,Maker twins,bastidor × heatstitch,Embroidery machines,64,2026-10-03,2,2,https://github.com/diogobernini/bastidor
-nto-oaW7214577395oaW7214705435,twins,Research twins,A lightweight YOLOv11n model with enhanced… × A Hybrid Deep Learning Approach for Early…,Seeing wildfires from orbit,64,2026-09-29,3,2,https://doi.org/10.1007/s10791-026-10621-z
 tm-UK00000209869,revival,Dormant trade mark,ERASMIC,perfume & cosmetics,63,2005-12-06,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000209869
 tm-UK00000281226,revival,Dormant trade mark,CAT AND BARREL,wines & spirits,63,2004-03-28,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000281226
 tm-UK0000217158B,revival,Dormant trade mark,RUSKOON,perfume & cosmetics,63,1996-09-20,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK0000217158B
@@ -383,6 +381,7 @@ gz-5232459,closing,Insolvency: liquidator appointed,Triptank Limited,Fine dining
 gz-5232447,closing,Insolvency: liquidator appointed,Westwood Meters Holdings Limited,"Workshop, making & print",63,2026-10-19,3,2,https://www.thegazette.co.uk/notice/5232447
 gz-5237745,closing,Insolvency: liquidator appointed,Central City Bakeries Limited,Fine dining & restaurant,63,2026-10-26,3,3,https://www.thegazette.co.uk/notice/5237745
 gz-5237512,closing,Insolvency: liquidator appointed,Asfordby Storage & Haulage Limited,Gym & wellness,63,2026-10-26,3,3,https://www.thegazette.co.uk/notice/5237512
+nto-oaW7214577395oaW7214705435,twins,Research twins,A lightweight YOLOv11n model with enhanced… × A Hybrid Deep Learning Approach for Early…,Seeing wildfires from orbit,63,2026-09-29,3,2,https://doi.org/10.1007/s10791-026-10621-z
 tm-UK00000080581,revival,Dormant trade mark,D.C MONEVART & CIE. COGNAC,wines & spirits,62,2000-09-26,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000080581
 tm-UK00000219844,revival,Dormant trade mark,PICAROON,perfume & cosmetics,62,1997-01-07,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000219844
 tm-UK00000223215,revival,Dormant trade mark,Ichthalbin,perfume & cosmetics,62,1997-05-19,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000223215
@@ -403,7 +402,6 @@ tm-UK00000313674,revival,Dormant trade mark,SAPAL,cutlery & blades,62,2007-06-03
 gh-704881002,revival,Abandoned project,xiaomusic,Design & craft software,62,2026-06-09,2,1,https://github.com/hanxi/xiaomusic
 gh-268786553,revival,Abandoned project,Discord-MusicBot,Design & craft software,62,2026-04-23,2,1,https://github.com/ItzSudhan/Discord-MusicBot
 gh-956792596,revival,Abandoned project,piper1-gpl,Software,62,2026-11-07,2,3,https://github.com/OHF-Voice/piper1-gpl
-gh-106345099,revival,Abandoned project,swup,Software,62,2026-11-03,2,3,https://github.com/swup/swup
 ct-NCT06032546,revival,Stopped clinical trial,"A Study to Assess Change in Disease Activity, Adverse Events, and How the Drug Moves Through the Body in Adult Participants Living With Human Immunodeficiency Virus (HIV) Receiving Intravenous (IV) Infusion or Subcutaneous (SC) Injection of Budigalimab and/or ABBV-382",Life sciences,62,2026-11-06,3,3,https://clinicaltrials.gov/study/NCT06032546
 ct-NCT04933916,revival,Stopped clinical trial,Study of EMB-001 as a Potential Smoking Cessation Treatment,Life sciences,62,2026-11-05,3,3,https://clinicaltrials.gov/study/NCT04933916
 ct-NCT04094298,revival,Stopped clinical trial,Use of Extended Release Triamcinolone in the Treatment of Rotator Cuff Disease,Life sciences,62,2026-11-04,3,3,https://clinicaltrials.gov/study/NCT04094298
@@ -417,8 +415,6 @@ gz-5225320,closing,Insolvency: liquidator appointed,Recursion London Ltd,Lab & s
 gz-5225293,closing,Insolvency: liquidator appointed,Globetrekker Outdoorkit Limited,"Couture, tailoring & leather",62,2026-10-07,3,2,https://www.thegazette.co.uk/notice/5225293
 gz-5225199,closing,Insolvency: liquidator appointed,Bad Wolf (Twk) Ltd,"Film, music & studio kit",62,2026-10-07,3,2,https://www.thegazette.co.uk/notice/5225199
 gz-5225189,closing,Insolvency: liquidator appointed,Bad Wolf (Hdm3) Limited,"Film, music & studio kit",62,2026-10-07,3,2,https://www.thegazette.co.uk/notice/5225189
-nto-oaW7165165010ghSajjaddePlantDiseaseDetection,twins,Research twins,Mobile Application for Automated Plant… × Sajjadde/Plant-Disease-Detection,Spotting crop disease from a phone photo,62,2026-07-16,3,2,https://doi.org/10.55041/ijcope.v2i6.239
-nto-ghsabarish088AIMosquitoDetectionSystemghsalman1237mosquitovi,twins,Research twins,sabarish088/AI-Mosquito-Detection-System × salman1237/mosquitovision,Hearing mosquitoes,62,2026-07-18,2,2,https://github.com/sabarish088/AI-Mosquito-Detection-System
 nto-oaW7210289214oaW7212118464,twins,Research twins,Identifying and connecting green space… × Determining Cooling Green Space Planning…,Keeping cities cool in heatwaves,62,2026-09-10,3,2,https://doi.org/10.1016/j.scs.2026.107892
 tm-UK0000252745A,revival,Dormant trade mark,LYXO,perfume & cosmetics,61,2001-03-03,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK0000252745A
 tm-UK00000251390,revival,Dormant trade mark,DAREN,perfume & cosmetics,61,2001-01-12,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000251390
@@ -456,18 +452,19 @@ tm-UK00000514791,revival,Dormant trade mark,SEMPRAX,cutlery & blades,61,2000-07-
 tm-UK00000517565,revival,Dormant trade mark,POLDI STABIL,cutlery & blades,61,2000-11-07,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000517565
 tm-UK00000517585,revival,Dormant trade mark,YEOMAN PLATE,cutlery & blades,61,2000-11-08,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000517585
 tm-UK00000518758,revival,Dormant trade mark,MARRIED YET ?,cutlery & blades,61,2000-12-17,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000518758
+gh-106345099,revival,Abandoned project,swup,Software,61,2026-11-03,2,3,https://github.com/swup/swup
 ct-NCT05613088,revival,Stopped clinical trial,"A Study of MORAb-202 Versus Investigator's Choice Chemotherapy in Female Participants With Platinum-resistant High-grade Serous (HGS) Ovarian, Primary Peritoneal, or Fallopian Tube Cancer",Life sciences,61,2026-10-28,3,3,https://clinicaltrials.gov/study/NCT05613088
 ct-NCT07222189,revival,Stopped clinical trial,"A Study to Investigate the Long-term Safety, Tolerability and Efficacy of Balinatunfib in Participants With Crohn's Disease or Ulcerative Colitis (SPECIFI-IBD-LTS)",Life sciences,61,2026-10-22,3,2,https://clinicaltrials.gov/study/NCT07222189
 ct-NCT03710122,revival,Stopped clinical trial,Vancomycin for Primary Sclerosing Cholangitis,Life sciences,61,2026-10-21,3,2,https://clinicaltrials.gov/study/NCT03710122
 ct-NCT03999580,revival,Stopped clinical trial,The Vitamin D in Pediatric Crohn's Disease ( ViDiPeC-2 ),Life sciences,61,2026-10-21,3,2,https://clinicaltrials.gov/study/NCT03999580
 ct-NCT06867094,revival,Stopped clinical trial,A Study to Investigate Efficacy and Safety of SAR441566 in Patients With Ulcerative Colitis,Life sciences,61,2026-10-21,3,2,https://clinicaltrials.gov/study/NCT06867094
-ct-NCT05600426,revival,Stopped clinical trial,"A Trial Comparing Unrelated Donor BMT With IST for Pediatric and Young Adult Patients With Severe Aplastic Anemia (TransIT, BMT CTN 2202)",Life sciences,61,2026-10-19,3,2,https://clinicaltrials.gov/study/NCT05600426
 im-Q28035409,import,Bags & leather,Carpisa,Bags & leather,61,,2,3,https://nsi.guide/?id=Q28035409
 im-Q113232449,import,Pâtisserie,Cukiernia Sowa,Pâtisserie,61,,2,3,https://nsi.guide/?id=Q113232449
 im-Q813782,import,Homeware,Bed Bath & Beyond (North America),Homeware,61,,2,3,https://nsi.guide/?id=Q813782
 im-Q101113141,import,Beauty,Primor,Beauty,61,,2,3,https://nsi.guide/?id=Q101113141
 gz-5231291,closing,Insolvency: winding-up order,Knightsward Farm Limited,Equestrian & rural,61,2026-10-17,3,2,https://www.thegazette.co.uk/notice/5231291
 gz-5235471,closing,Insolvency: winding-up order,Mjhm Engineering Ltd,"Workshop, making & print",61,2026-10-24,3,2,https://www.thegazette.co.uk/notice/5235471
+nto-oaW7213267866oaW7214525582,twins,Research twins,Deep Learning-Based Sign Language… × Leveraging large and vision language models…,Translating sign language,61,2026-09-27,3,2,https://doi.org/10.1145/3844609
 tm-UK00000227208,revival,Dormant trade mark,REXINE,leather goods,60,2007-11-17,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000227208
 tm-UK00000306309,revival,Dormant trade mark,RINSO,perfume & cosmetics,60,2016-09-19,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000306309
 tm-UK00000307422,revival,Dormant trade mark,BITUROS,perfume & cosmetics,60,2006-10-28,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000307422
@@ -496,6 +493,7 @@ tm-UK00000563333,revival,Dormant trade mark,BRAVINGTONS RENOWN,watches & jewelle
 tm-UK00000386702,revival,Dormant trade mark,WEFCO,motoring & coachbuilding,60,2002-12-10,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000386702
 tm-UK0000228068B,revival,Dormant trade mark,RENNEF,motoring & coachbuilding,60,1998-01-05,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK0000228068B
 gh-91012013,revival,Abandoned project,YapAnimator,Design & craft software,60,2026-03-07,2,1,https://github.com/yapstudios/YapAnimator
+ct-NCT05600426,revival,Stopped clinical trial,"A Trial Comparing Unrelated Donor BMT With IST for Pediatric and Young Adult Patients With Severe Aplastic Anemia (TransIT, BMT CTN 2202)",Life sciences,60,2026-10-19,3,2,https://clinicaltrials.gov/study/NCT05600426
 ct-NCT05063786,revival,Stopped clinical trial,Trastuzumab + Alpelisib +/- Fulvestrant vs Trastuzumab + CT in PIK3CA-mutated HER2+ Advanced BC (ALPHABET),Life sciences,60,2026-10-15,3,2,https://clinicaltrials.gov/study/NCT05063786
 ct-NCT05268289,revival,Stopped clinical trial,"Study of Efficacy and Safety of LNP023 in Participants With Active Lupus Nephritis Class III-IV, +/- V",Life sciences,60,2026-10-15,3,2,https://clinicaltrials.gov/study/NCT05268289
 ct-NCT05330455,revival,Stopped clinical trial,Study of GSK3965193 in Healthy Participants and Participants Living With Chronic Hepatitis B Infection,Life sciences,60,2026-10-14,3,2,https://clinicaltrials.gov/study/NCT05330455
@@ -504,7 +502,6 @@ ct-NCT04620148,revival,Stopped clinical trial,TAK-242 in Patients With Acute Alc
 ct-NCT05532020,revival,Stopped clinical trial,An Open-Label Study of Diazoxide Choline in Patients With Genetic Obesities,Life sciences,60,2026-10-13,3,2,https://clinicaltrials.gov/study/NCT05532020
 ct-NCT06637631,revival,Stopped clinical trial,A Study to Investigate Efficacy and Safety of SAR441566 in Patients With Crohn's Disease.,Life sciences,60,2026-10-13,3,2,https://clinicaltrials.gov/study/NCT06637631
 ct-NCT01785420,revival,Stopped clinical trial,Pre Operative Trastuzumab in Operable Breast Cancer,Life sciences,60,2026-10-09,3,2,https://clinicaltrials.gov/study/NCT01785420
-ct-NCT05279937,revival,Stopped clinical trial,The Ultrasound-Guided Dextrose Prolotherapy in Ehlers-Danlos Syndrome Patients,Life sciences,60,2026-10-08,3,2,https://clinicaltrials.gov/study/NCT05279937
 im-Q109628199,import,Interiors,Kid interiør,Interiors,60,,2,3,https://nsi.guide/?id=Q109628199
 im-Q6415714,import,Interiors,Kirkland's,Interiors,60,,2,3,https://nsi.guide/?id=Q6415714
 im-Q5174750,import,Interiors,World Market,Interiors,60,,2,3,https://nsi.guide/?id=Q5174750
@@ -514,6 +511,7 @@ im-Q4394330,import,Beauty,Rive Gauche (Рив Гош),Beauty,60,,2,3,https://nsi
 gz-5232796,closing,Insolvency: administrator appointed,Stephan (Uk) Limited,"Workshop, making & print",60,2026-10-16,3,2,https://www.thegazette.co.uk/notice/5232796
 gz-5231389,closing,Insolvency: liquidator appointed,Strathdevon Limited,Fine dining & restaurant,60,2026-10-16,3,2,https://www.thegazette.co.uk/notice/5231389
 gz-5231502,closing,Insolvency: liquidator appointed,Kemvyl Limited,"Workshop, making & print",60,2026-10-16,3,2,https://www.thegazette.co.uk/notice/5231502
+nto-oaW7165165010ghSajjaddePlantDiseaseDetection,twins,Research twins,Mobile Application for Automated Plant… × Sajjadde/Plant-Disease-Detection,Spotting crop disease from a phone photo,60,2026-07-16,3,2,https://doi.org/10.55041/ijcope.v2i6.239
 nto-oaW7168149325oaW7204989184,twins,Research twins,Canopy Urban Heat Island Mitigation Through… × Evaluate the thermal performance of green…,Keeping cities cool in heatwaves,60,2026-09-02,3,2,https://doi.org/10.3390/su18147094
 tm-UK00000077995,revival,Dormant trade mark,CROSIER BRAND W.J.C. LONDON,perfume & cosmetics,59,2000-07-05,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000077995
 tm-UK00000058882,revival,Dormant trade mark,BLAKEYS BOOT PROTECTORS,tailoring & fashion,59,2008-11-13,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000058882
@@ -521,6 +519,7 @@ tm-UK00000570229,revival,Dormant trade mark,TAWLITE,cutlery & blades,59,2006-07-
 tm-UK00000431685,revival,Dormant trade mark,FAIRBANKS-MORSE,motoring & coachbuilding,59,2016-11-20,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000431685
 gh-29261473,revival,Abandoned project,minio,Software,59,2026-04-24,2,1,https://github.com/minio/minio
 gh-62367558,revival,Abandoned project,hyper,Software,59,2026-11-04,2,3,https://github.com/vercel/hyper
+ct-NCT05279937,revival,Stopped clinical trial,The Ultrasound-Guided Dextrose Prolotherapy in Ehlers-Danlos Syndrome Patients,Life sciences,59,2026-10-08,3,2,https://clinicaltrials.gov/study/NCT05279937
 ct-NCT00893516,revival,Stopped clinical trial,CD4 in Combination With CHOP in Treating Non-cutaneous Peripheral TCell Lymphoma,Life sciences,59,2026-10-07,3,2,https://clinicaltrials.gov/study/NCT00893516
 ct-NCT07027111,revival,Stopped clinical trial,"Safety, Tolerability, and Efficacy of NVG-2089 in Participants With CIDP",Life sciences,59,2026-10-06,3,2,https://clinicaltrials.gov/study/NCT07027111
 ct-NCT06568692,revival,Stopped clinical trial,A Phase 2 Study of PCS6422 With Capecitabine in Patients With Advanced or Metastatic Breast Cancer,Life sciences,59,2026-10-06,3,2,https://clinicaltrials.gov/study/NCT06568692
@@ -532,6 +531,7 @@ im-Q5439846,import,Pâtisserie,MultiVlaai,Pâtisserie,59,,2,3,https://nsi.guide/
 im-Q7073219,import,Perfume house,O Boticário,Perfume house,59,,2,3,https://nsi.guide/?id=Q7073219
 gz-5237222,closing,Insolvency: liquidator appointed,Norton Stainless Engineering Limited,"Workshop, making & print",59,2026-10-23,3,2,https://www.thegazette.co.uk/notice/5237222
 gz-5236117,closing,Insolvency: liquidator appointed,Kutz Amc Limited,Gym & wellness,59,2026-10-23,3,2,https://www.thegazette.co.uk/notice/5236117
+nto-oaW7167610440oaW7213287216,twins,Research twins,Risk Stratification Using the Tracheostomy… × Development and exploratory external…,Catching sepsis early,59,2026-09-16,3,2,https://doi.org/10.1177/19433654261454987
 nto-oaW7171973673oaW7172450507,twins,Research twins,Evaluating surface water for genomic… × Genomic Surveillance of ESBL-Producing…,Antibiotic resistance in wastewater,59,2026-08-04,3,2,https://doi.org/10.1016/j.envadv.2026.100744
 tm-UK0000297803A,revival,Dormant trade mark,POLYWOG,leather goods,58,2005-11-07,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK0000297803A
 tm-UK00000454432,revival,Dormant trade mark,MAUDSLAY,motoring & coachbuilding,58,2004-12-11,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000454432
@@ -590,6 +590,7 @@ gz-5228454,closing,Insolvency: liquidator appointed,Workplace Drink Solutions Lt
 gz-5228414,closing,Insolvency: liquidator appointed,Cambridge Steel Structures Ltd,"Workshop, making & print",57,2026-10-12,3,2,https://www.thegazette.co.uk/notice/5228414
 gz-5233254,closing,Insolvency: winding-up order,M C S C Restaurants Limited,Fine dining & restaurant,57,2026-10-21,3,2,https://www.thegazette.co.uk/notice/5233254
 nto-oaW7131905264oaW7165812312,twins,Research twins,Fungal Disease Detection on Vegetable Crops… × New computer vision tools help to assess…,Spotting crop disease from a phone photo,57,2026-06-24,3,1,https://doi.org/10.3390/agriculture16050541
+nto-oaW7162782179oaW7207611507,twins,Research twins,Early Prediction of Sepsis-Related… × Evaluation of new biomarkers for the early…,Catching sepsis early,57,2026-08-01,3,2,https://doi.org/10.3390/jcm15114199
 nto-ghmdzaheerjkMosquitoDetectionSystemPreventMosquitoborneDisea,twins,Research twins,mdzaheerjk/Mosquito-Detection-System-Prevent-… × Saheed7/Mosquito-Detection-System,Hearing mosquitoes,57,2026-05-05,2,1,https://github.com/mdzaheerjk/Mosquito-Detection-System-Prevent-Mosquito-borne-Diseases
 tm-UK00000231139,revival,Dormant trade mark,VARCIA,tailoring & fashion,56,1998-05-30,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000231139
 tm-UK00000544497,revival,Dormant trade mark,KING DICK,cutlery & blades,56,2003-09-15,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000544497
@@ -644,8 +645,8 @@ im-Q124374469,import,Pâtisserie,Theobroma,Pâtisserie,56,,2,3,https://nsi.guide
 im-Q15934678,import,Pâtisserie,Beijing DaoXiangCun (稻香村（北京）),Pâtisserie,56,,2,3,https://nsi.guide/?id=Q15934678
 im-Q126392274,import,Pâtisserie,Sodiê Doces,Pâtisserie,56,,2,3,https://nsi.guide/?id=Q126392274
 tw-1265475256-1169475574,twins,Maker twins,strumento × la-marzocco-ha-dashboard,Espresso machine mods,56,2026-06-10,2,1,https://github.com/felixrieseberg/strumento
-nto-oaW7163026218oaW7164331821,twins,Research twins,Target-Side Paraphrase Augmentation for Sign… × Corpus Augmentation for Sign Language…,Translating sign language,56,2026-06-10,2,1,https://doi.org/10.48550/arxiv.2605.31393
 nto-oaW7162644789oaW7170147980,twins,Research twins,Assessment of low-cost air quality sensor… × Design and Development of a Low-Cost…,Cheap air-quality sensors,56,2026-07-03,3,1,https://doi.org/10.1080/02786826.2026.2625731
+nto-oaW7164305285oaW7171329696,twins,Research twins,A comperhensive review: Antimicrobial… × Antimicrobial Resistance at the…,Antibiotic resistance in wastewater,56,2026-07-25,3,2,https://doi.org/10.30742/3svevz51
 tm-UK00000010857,revival,Dormant trade mark,Potosi Silver,cutlery & blades,55,2003-02-16,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000010857
 tm-UK00000299911,revival,Dormant trade mark,ALUXA,tailoring & fashion,55,2006-01-24,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000299911
 tm-UK00000306122,revival,Dormant trade mark,SILKILON,tailoring & fashion,55,2006-09-10,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000306122
@@ -688,7 +689,7 @@ gz-5228032,closing,Insolvency: liquidator appointed,"
 gz-5227114,closing,Insolvency: liquidator appointed,1St Able Building & Maintenance Limited,"Workshop, making & print",55,2026-10-08,3,2,https://www.thegazette.co.uk/notice/5227114
 gz-5233267,closing,Insolvency: liquidator appointed,Belsize Ventures Ltd,Gym & wellness,55,2026-10-19,3,2,https://www.thegazette.co.uk/notice/5233267
 nto-oaW7160187208oaW7161748447,twins,Research twins,Digital Twin for Climate-Resilient Urban… × From data to impact: Lifecycle-oriented…,Keeping cities cool in heatwaves,55,2026-05-19,3,1,https://doi.org/10.5194/isprs-archives-xlviii-m-10-2025-155-2026
-nto-oaW7169872305oaW7204919485,twins,Research twins,Municipal wastewater surveillance reveals… × Wastewater Metagenomic Surveillance Reveals…,Antibiotic resistance in wastewater,55,2026-08-31,3,2,https://doi.org/10.64898/2026.07.19.26358431
+nto-oaW7131093506oaW7152615563,twins,Research twins,Experimental thermal analysis of a… × Comparative review of phase change materials…,Fresh water from sunlight,55,2026-04-01,3,1,https://doi.org/10.1016/j.applthermaleng.2026.130383
 tm-UK00000196013,revival,Dormant trade mark,JOHN COPLEY & SONS SHEFFIELD,cutlery & blades,54,2008-06-17,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000196013
 tm-UK00000054467,revival,Dormant trade mark,COLINDIA,leather goods,54,1998-06-04,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000054467
 tm-UK00000474500,revival,Dormant trade mark,NIMBLEX,leather goods,54,1996-11-03,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000474500
@@ -717,6 +718,7 @@ gz-5225653,closing,Insolvency: administrator appointed,Lucky Voice Group Limited
 gz-5225150,closing,Insolvency: liquidator appointed,Dicerick Ltd,Fine dining & restaurant,54,2026-10-07,3,2,https://www.thegazette.co.uk/notice/5225150
 gz-5225130,closing,Insolvency: liquidator appointed,Corner House Canterbury Ltd,Fine dining & restaurant,54,2026-10-07,3,2,https://www.thegazette.co.uk/notice/5225130
 nto-oaW4416103244oaW7131116572,twins,Research twins,Fine-tuning vision–language models as OCR… × PsOCR: Benchmarking large multimodal models…,Language models for low-resource languages,54,2026-02-23,3,1,https://doi.org/10.1017/chr.2026.10042
+nto-oaW7169872305oaW7204919485,twins,Research twins,Municipal wastewater surveillance reveals… × Wastewater Metagenomic Surveillance Reveals…,Antibiotic resistance in wastewater,54,2026-08-31,3,2,https://doi.org/10.64898/2026.07.19.26358431
 tm-UK00000488294,revival,Dormant trade mark,KEYTAINER,leather goods,53,1998-02-07,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000488294
 tm-UK00000494449,revival,Dormant trade mark,PORTMILL,leather goods,53,1998-08-25,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00000494449
 tm-UK0000507708B,revival,Dormant trade mark,MASTROM,leather goods,53,1999-11-12,3,1,https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK0000507708B
@@ -781,20 +783,21 @@ im-Q117003960,import,Bakery,Kulinichi (Кулиничі),Bakery,53,,2,3,https://
 im-Q110085956,import,Bakery,Khlebnik (Хлебник),Bakery,53,,2,3,https://nsi.guide/?id=Q110085956
 im-Q102863175,import,Spirits & wine,Bottlemart,Spirits & wine,53,,2,3,https://nsi.guide/?id=Q102863175
 im-Q109807592,import,Spirits & wine,Cellarbrations,Spirits & wine,53,,2,3,https://nsi.guide/?id=Q109807592
-nto-oaW7125788404oaW7130954974,twins,Research twins,Deep Learning-Driven Wildfire Detection in… × The Impact of Image Classification Using…,Seeing wildfires from orbit,53,2026-02-22,3,1,https://doi.org/10.5194/isprs-archives-xlviii-4-w18-2025-179-2026
+nto-oaW7139081313oaW7160699867,twins,Research twins,Sustainable lithium-ion battery recycling in… × Recycled lithium carbonate as a sustainable…,Recycling lithium-ion batteries,53,2026-05-09,3,1,https://doi.org/10.1557/s43581-026-00157-6
 gh-606762843,revival,Abandoned project,pot-desktop,Software,52,2026-07-04,2,1,https://github.com/pot-app/pot-desktop
 gz-5231496,closing,Insolvency: liquidator appointed,Juno Glass Limited,"Workshop, making & print",52,2026-10-16,3,2,https://www.thegazette.co.uk/notice/5231496
 gz-5231526,closing,Insolvency: liquidator appointed,Cl Transport & Logistics Limited,Gym & wellness,52,2026-10-16,3,2,https://www.thegazette.co.uk/notice/5231526
-nto-oaW7163384348oaW7202193419,twins,Research twins,SLU-2K: A Question-Based Benchmark for… × Bridging the Gap Between Semantics and…,Translating sign language,52,2026-08-10,2,2,https://doi.org/10.48550/arxiv.2606.03788
+nto-oaW7125788404oaW7130954974,twins,Research twins,Deep Learning-Driven Wildfire Detection in… × The Impact of Image Classification Using…,Seeing wildfires from orbit,52,2026-02-22,3,1,https://doi.org/10.5194/isprs-archives-xlviii-4-w18-2025-179-2026
 nto-oaW7133504623oaW7118793461,twins,Research twins,The Effects of Cesarean Section due to… × Genomic Characterization of Pathogenic CNVs…,Screening for dyslexia,52,2026-01-06,3,1,https://doi.org/10.1620/tjem.2026.j009
 nto-oaW4416240546oaW7116903803,twins,Research twins,Optimizing solar desalination efficiency… × Enhancement of solar desalination efficiency…,Fresh water from sunlight,52,2025-12-23,3,1,https://doi.org/10.1007/s10973-025-15061-3
-gh-1116260703,revival,Abandoned project,get-shit-done,Software,51,2026-05-31,2,1,https://github.com/gsd-build/get-shit-done
 gh-317836248,revival,Abandoned project,Clone-Wars,Software,51,2024-08-06,2,1,https://github.com/GorvGoyl/Clone-Wars
 gz-5231983,closing,Insolvency: administrator appointed,"
           Appletree Joinery Products Limited","Workshop, making & print",51,2026-10-15,3,2,https://www.thegazette.co.uk/notice/5231983
 gz-5230803,closing,Insolvency: liquidator appointed,Lindsey Catering Co. Limited,Fine dining & restaurant,51,2026-10-15,3,2,https://www.thegazette.co.uk/notice/5230803
 gz-5230798,closing,Insolvency: liquidator appointed,Longitude Systems Engineering Limited,"Workshop, making & print",51,2026-10-15,3,2,https://www.thegazette.co.uk/notice/5230798
+nto-oaW7206207969oaW7150929675,twins,Research twins,Field evaluation of a wireless sensor… × A Flash Flood Early Warning System:…,Early warning for floods,51,2026-04-06,3,1,https://doi.org/10.1109/jiot.2026.3730250
 nto-oaW7131291502oaW7140047253,twins,Research twins,A water-soluble binder for recyclable… × Covalent adaptable networks for…,Recycling lithium-ion batteries,51,2026-03-22,3,1,https://doi.org/10.1038/s41893-026-01773-3
+gh-1116260703,revival,Abandoned project,get-shit-done,Software,50,2026-05-31,2,1,https://github.com/gsd-build/get-shit-done
 gh-881506708,revival,Abandoned project,Roo-Code,Software,50,2026-05-15,2,1,https://github.com/RooCodeInc/Roo-Code
 gh-69043435,revival,Abandoned project,react-native-modal,Software,50,2026-01-29,2,1,https://github.com/react-native-modal/react-native-modal
 gz-5230461,closing,Insolvency: liquidator appointed,Glasgow Packaging And Print Limited,"Workshop, making & print",50,2026-10-14,3,2,https://www.thegazette.co.uk/notice/5230461
@@ -802,14 +805,16 @@ gz-5229200,closing,Insolvency: liquidator appointed,Datalec Busbar Installations
 gz-5229195,closing,Insolvency: liquidator appointed,Lisa King Designs Ltd,"Workshop, making & print",50,2026-10-13,3,2,https://www.thegazette.co.uk/notice/5229195
 gz-5229803,closing,Insolvency: liquidator appointed,Bw Epic Kosan (Uk) Limited,Gym & wellness,50,2026-10-13,3,2,https://www.thegazette.co.uk/notice/5229803
 tw-1207837001-1119621731,twins,Maker twins,metbarista × Meticulous-OpenAPI-Documentation,Espresso machine mods,50,2026-04-11,2,1,https://github.com/nakashon/metbarista
-nto-oaW7128162339oaW7162240259,twins,Research twins,Influence of polyethylene microplastics on… × Machine Learning-Guided Electrochemical…,Detecting microplastics in water,50,2026-05-23,3,1,https://doi.org/10.1016/j.jwpe.2026.109601
-nto-oaW4416863455oaW7140148807,twins,Research twins,A Wav2Vec2 model-based automatic speech… × LoASR-Bench: Evaluating Large Speech…,Language models for low-resource languages,50,2026-03-20,3,1,https://doi.org/10.1007/s10772-025-10228-7
 nto-oaW7117550486oaW7133984783,twins,Research twins,Immune cell profiling supports early… × Serum HDAC3 as an early biomarker for…,Catching sepsis early,50,2026-03-05,3,1,https://doi.org/10.1186/s40364-025-00870-3
 nto-oaW7143732837oaW7161804044,twins,Research twins,Hyperlocal Seismic Soil Characteristic… × A Comprehensive Review of Advanced…,Finding landmines,50,2026-05-20,3,1,https://doi.org/10.31223/x5hn3r
 gh-1129010,revival,Abandoned project,jQuery-File-Upload,Software,49,2026-04-08,2,1,https://github.com/blueimp/jQuery-File-Upload
+nto-oaW7128162339oaW7162240259,twins,Research twins,Influence of polyethylene microplastics on… × Machine Learning-Guided Electrochemical…,Detecting microplastics in water,49,2026-05-23,3,1,https://doi.org/10.1016/j.jwpe.2026.109601
+nto-oaW7124461530oaW7160924218,twins,Research twins,Biomimetic design of a… × Detection of Microplastics and Heavy Metals…,Detecting microplastics in water,49,2026-05-12,3,1,https://doi.org/10.54254/2977-3903/2026.31366
+nto-oaW7140330072oaW7166728255,twins,Research twins,Performance Modeling of Lightweight… × AFP assistant: a retrieval-augmented…,Language models for low-resource languages,49,2026-06-30,3,1,https://doi.org/10.3390/bioengineering13040378
 gh-73681508,revival,Abandoned project,wepy,Software,48,2026-03-18,2,1,https://github.com/Tencent/wepy
 gh-72891330,revival,Abandoned project,ingress-nginx,Software,48,2026-03-23,2,1,https://github.com/kubernetes/ingress-nginx
 gz-5234279,closing,Insolvency: liquidator appointed,Ledgerwood Morgan (Sports Cars) Limited,Gym & wellness,48,2026-10-20,3,2,https://www.thegazette.co.uk/notice/5234279
+nto-oaW4416863455oaW7171394849,twins,Research twins,A Wav2Vec2 model-based automatic speech… × LoASR-Bench: Evaluating Large Speech…,Language models for low-resource languages,48,2026-01-01,3,1,https://doi.org/10.1007/s10772-025-10228-7
 gh-12820537,revival,Abandoned project,slate,Software,47,2026-02-01,2,1,https://github.com/slatedocs/slate
 gh-640317662,revival,Abandoned project,vanna,Software,47,2026-02-02,2,1,https://github.com/vanna-ai/vanna
 gh-60266911,revival,Abandoned project,anypixel,Design & craft software,47,2025-08-18,2,1,https://github.com/googlecreativelab/anypixel
@@ -819,12 +824,13 @@ gh-259406841,revival,Abandoned project,win-vind,Design & craft software,46,2025-
 gz-5226838,closing,Insolvency: liquidator appointed,Sandbar Impact Ltd,Fine dining & restaurant,46,2026-10-08,3,2,https://www.thegazette.co.uk/notice/5226838
 gz-5225171,closing,Insolvency: administrator appointed,Telford Transport Solutions Limited,Gym & wellness,46,2026-10-07,3,2,https://www.thegazette.co.uk/notice/5225171
 gz-5225131,closing,Insolvency: administrator appointed,Smart Freight Solutions Ltd,Gym & wellness,46,2026-10-07,3,2,https://www.thegazette.co.uk/notice/5225131
+nto-oaW4416345527oaW7110929675,twins,Research twins,Progressive multi-level learning for… × RVLF: A Reinforcing Vision-Language…,Translating sign language,46,2025-12-08,3,1,https://doi.org/10.1016/j.displa.2025.103285
 nto-oaW4417537325oaW7165753500,twins,Research twins,Sustainable recycling of spent lithium-ion… × Sustainable Recycling Strategies for…,Recycling lithium-ion batteries,46,2026-01-01,3,1,https://doi.org/10.1016/j.cej.2025.172129
 gh-125596489,revival,Abandoned project,docz,Software,45,2025-11-21,2,1,https://github.com/pedronauck/docz
 gh-272887007,revival,Abandoned project,ModernFlyouts,Design & craft software,45,2024-11-17,2,1,https://github.com/ModernFlyouts-Community/ModernFlyouts
 gh-31810895,revival,Abandoned project,react-autosuggest,Software,45,2024-11-19,2,1,https://github.com/moroshko/react-autosuggest
 gh-119420975,revival,Abandoned project,Music-Player-GO,Design & craft software,45,2025-01-04,2,1,https://github.com/enricocid/Music-Player-GO
-nto-oaW7164180526oaW7154753083,twins,Research twins,Environmental Antimicrobial Resistance in… × Public health risks of antimicrobial…,Antibiotic resistance in wastewater,45,2026-01-01,3,1,https://doi.org/10.2139/ssrn.6901934
+nto-oaW7119645940oaW7220585881,twins,Research twins,Cross-Lingual Transfer Learning in Large… × Transfer Learning and Generative Modeling…,Language models for low-resource languages,45,2026-04-15,3,1,https://doi.org/10.36227/techrxiv.176799777.79169627/v1
 nto-oaW7124592976oaW7133232211,twins,Research twins,Convolutional neural network DenseNet in… × Explainable Deep Learning Approaches for…,Screening for dyslexia,45,2026-02-28,3,1,https://doi.org/10.11591/ijeecs.v41.i1.pp220-232
 gh-499220578,revival,Abandoned project,ViMusic,Design & craft software,44,2024-07-15,2,1,https://github.com/vfsfitvnm/ViMusic
 gh-95492797,revival,Abandoned project,Bash-Snippets,Software,44,2024-05-04,2,1,https://github.com/alexanderepstein/Bash-Snippets
@@ -832,11 +838,10 @@ gh-93565582,revival,Abandoned project,howtographql,Software,44,2024-07-03,2,1,ht
 gh-497420077,revival,Abandoned project,bevfusion,Design & craft software,44,2024-07-31,2,1,https://github.com/mit-han-lab/bevfusion
 gh-174817300,revival,Abandoned project,pandarallel,Software,44,2024-07-09,2,1,https://github.com/nalepae/pandarallel
 gh-22670215,revival,Abandoned project,Scumblr,Software,44,2020-01-10,2,1,https://github.com/Netflix-Skunkworks/Scumblr
-nto-ghMohammedrazincrLeafDiseaseDetectionSystemoaW4417519925,twins,Research twins,Mohammed-razin-cr/Leaf-DiseaseDetection-System × Design and Implementaion of a Web-Based…,Spotting crop disease from a phone photo,44,2025-12-20,3,1,https://github.com/Mohammed-razin-cr/Leaf-DiseaseDetection-System
-nto-oaW7163052625oaW7220531219,twins,Research twins,Context-Aware Hybrid Neural Models for… × Analyzing the Impact of Pretrained Language…,Language models for low-resource languages,44,2026-03-01,3,1,https://doi.org/10.1109/access.2026.3699039
-nto-oaW7119062145oaW7211954285,twins,Research twins,Marine biomass-derived bilayer hydrogel for… × Polydopamine-Coated Waste Cardboard Roll…,Fresh water from sunlight,44,2026-01-01,3,1,https://doi.org/10.1016/j.cej.2026.172736
 nto-oaW7224654601oaW7125480830,twins,Research twins,A Data-Quality Audit of a Public Low-Cost… × Enhancing Accuracy of Indoor Air Quality…,Cheap air-quality sensors,43,2026-01-23,3,1,https://doi.org/10.18535/ijsrm/v14i10.ec08
-nto-oaW7223556849oaW7133336648,twins,Research twins,Contribution to the Automatic Detection of… × Cognition-Inspired Computational Methods for…,Spotting crop disease from a phone photo,42,2026-01-19,3,1,https://doi.org/10.4236/ajps.2026.1710067
 nto-oaW4417448048oaW7128163220,twins,Research twins,Fibrinogen supplementation enhances… × Severe venom-induced consumption…,Snakebite,42,2026-02-06,3,1,https://doi.org/10.3389/fmed.2025.1667800
+nto-oaW7223556849oaW7133336648,twins,Research twins,Contribution to the Automatic Detection of… × Cognition-Inspired Computational Methods for…,Spotting crop disease from a phone photo,41,2026-01-19,3,1,https://doi.org/10.4236/ajps.2026.1710067
 tw-987243959-1097182396,twins,Maker twins,smart-beehive-monitor × arduibeescale,Beekeeping tech,40,2025-11-15,2,1,https://github.com/deaneeth/smart-beehive-monitor
+nto-oaW4416102167oaW4417166566,twins,Research twins,"Detection, Quantification, and… × Prevalence and health risks of microplastics…",Detecting microplastics in water,39,2025-12-09,3,1,https://doi.org/10.3390/microplastics4040088
+nto-oaW7110071530oaW7126226224,twins,Research twins,A comprehensive overview of lithium-ion… × Bibliometric Insights Into Lithium‐Ion…,Recycling lithium-ion batteries,39,2026-01-01,3,1,https://doi.org/10.1016/j.est.2025.119694
 gz-5224722,closing,Insolvency: winding-up order,Uk Salon Design Ltd,Gym & wellness,38,2026-10-08,3,2,https://www.thegazette.co.uk/notice/5224722
